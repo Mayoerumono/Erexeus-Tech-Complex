@@ -1,0 +1,30 @@
+{
+  "displayName": "战斗机",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "permaMods": [],
+  "hullId": "ETC_Atom",
+  "hullMods": [],
+  "variantId": "ETC_Atom_Fighter",
+  "weaponGroups": [
+		{"autofire": true,
+		"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0003": "ETC_mg5op_fighter",
+					"WS0004": "ETC_mg5op_fighter"
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0005": "ETC_l2pdl"
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001": "ETC_microannihilator",
+					"WS0002": "ETC_microannihilator",
+		 		   },
+		},
+  ]
+}

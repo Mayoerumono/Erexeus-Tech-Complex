@@ -1,0 +1,189 @@
+{
+  "hullName": "ETC_degenerate",
+  "hullId": "ETC_degenerate",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ETC_degenerate.png",
+  "style": "ETC_TECH",
+  "height": 400,
+  "width": 176,
+  "center": [88, 200],
+  "collisionRadius": 215,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 210,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWings": [
+    "ETC_needle_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "blinker_green",
+    "WS0002": "blinker_green",
+    "WS0003": "ETC_virtual_particle_core"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [95.5, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [95.5, -5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-71, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        22.5, 7,
+        23, -7,
+        33.5, 7,
+        33.5, -7
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [-35, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [-75, 32]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [-75, -32]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 115.5,
+      "locations": [-152, 28]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -115.5,
+      "locations": [-152, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": 48,
+      "locations": [4, 26]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 219,
+      "angle": -48,
+      "locations": [4, -26]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": 31,
+      "locations": [162, 21]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 148,
+      "angle": -31,
+      "locations": [162, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-160.5, -0],
+      "length": 1,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    171.5, -7,
+    193.5, -11.5,
+    154, -64,
+    126, -60,
+    24, -60,
+    0, -62.5,
+    -26.5, -54.5,
+    -51, -83,
+    -87.5, -87,
+    -121, -62.5,
+    -112, -44,
+    -151.5, -50,
+    -198, -19.5,
+    -161, -11,
+    -161, 11,
+    -198, 19.5,
+    -151.5, 50,
+    -112, 44,
+    -121, 62.5,
+    -87.5, 87,
+    -51, 83,
+    -26.5, 54.5,
+    0, 62.5,
+    24, 60,
+    126, 60,
+    154, 64,
+    193.5, 11.5,
+    171.5, 7
+  ]
+}

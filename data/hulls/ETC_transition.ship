@@ -1,0 +1,237 @@
+{
+  "hullName": "ETC_transition",
+  "hullId": "ETC_transition",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ETC_transition.png",
+  "style": "ETC_TECH",
+  "height": 372,
+  "width": 156,
+  "center": [78, 186],
+  "collisionRadius": 210,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system",
+    "ETC_infiniteneedle"
+  ],
+  "builtInWings": [
+    "ETC_needle_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_virtual_particle_core"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -105, 3,
+        -105, -3
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-87, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 180,
+      "locations": [-118, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [29, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [63, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [97, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [130, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 20,
+      "locations": [127, 22]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -20,
+      "locations": [127, -22]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 40,
+      "locations": [63, 25]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -40,
+      "locations": [63, -25]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 50,
+      "locations": [39, 25]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -50,
+      "locations": [39, -25]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 55,
+      "locations": [15, 25]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -55,
+      "locations": [15, -25]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [-83, 44]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [-83, -44]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-161.5, -0],
+      "length": 1,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-128, 46],
+      "length": 1,
+      "width": 18,
+      "angle": 160,
+      "contrailSize": 18,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-128, -46],
+      "length": 1,
+      "width": 18,
+      "angle": -160,
+      "contrailSize": 18,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    177, -12,
+    157, -33.5,
+    3.5, -44,
+    -37, -37.5,
+    -28, -50,
+    -95, -56,
+    -152.5, -40,
+    -174.5, -21,
+    -161, -0,
+    -174.5, 21,
+    -152.5, 40,
+    -95, 56,
+    -28, 50,
+    -37, 37.5,
+    3.5, 44,
+    157, 33.5,
+    177, 12,
+    125, -0
+  ]
+}

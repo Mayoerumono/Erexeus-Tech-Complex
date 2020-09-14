@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "ETC_kinetic_energy",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+	"quality": 0.5,
+    "variantId": "ETC_kinetic_energy_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "ETC_crystal1",
+                "WS0003": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ETC_l2pdl",
+                "WS0004": "ETC_mg5op"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "hullName": "ETC_Electron",
+  "hullId": "ETC_Electron",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/ETC_Electron_wing.png",
+  "style": "ETC_TECH",
+  "height": 42,
+  "width": 28,
+  "center": [14, 21],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system_f"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_clusterbeam_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -0],
+      "length": 1,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    -7, -14,
+    -20, -0,
+    -7, 14,
+    19.5, -0
+  ]
+}

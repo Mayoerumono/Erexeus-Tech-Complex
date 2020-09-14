@@ -1,0 +1,39 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 12,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "ETC_mechanical_energy",
+    "hullMods": [
+        "insulatedengine",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "ETC_mechanical_energy_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ETC_particle_gun",
+                "WS0008": "ETC_particle_gun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightdualac",
+                "WS0004": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ETC_l1pdl",
+                "WS0006": "ETC_l1pdl"
+            }
+        }
+    ]
+}

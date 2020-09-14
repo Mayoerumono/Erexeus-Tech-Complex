@@ -1,0 +1,18 @@
+{
+  "displayName": "浮游炮",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "permaMods": [],
+  "hullId": "ETC_Electron",
+  "hullMods": [],
+  "variantId": "ETC_Electron_Fighter",
+  "weaponGroups": [
+		{"autofire": true,
+		 "mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"ETC_clusterbeam_fighter"
+		 		   },
+		}
+  ]
+}

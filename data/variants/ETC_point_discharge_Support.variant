@@ -1,0 +1,47 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 16,
+    "fluxVents": 10,
+	"goalVariant": true,
+    "hullId": "ETC_point_discharge",
+	"hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ETC_point_discharge_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0029": "ETC_halom_L",
+                "WS0030": "ETC_halom_L"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0027": "ETC_prailgun",
+                "WS0028": "ETC_prailgun",
+                "WS0031": "ionbeam",
+                "WS0032": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "ETC_l2pdl",
+                "WS0020": "ETC_l2pdl",
+                "WS0021": "ETC_mg5op",
+                "WS0022": "ETC_mg5op"
+            }
+        }
+    ],
+    "wings": [
+        "ETC_Electron_wing",
+        "ETC_Electron_wing",
+        "ETC_Electron_wing",
+        "ETC_Electron_wing",
+        "ETC_Electron_wing"
+    ]
+}

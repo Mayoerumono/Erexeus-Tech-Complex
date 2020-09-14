@@ -1,0 +1,73 @@
+{
+  "variantId": "ETC_andras_Elite",
+  "hullId": "ETC_andras",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 8,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS005B": "ETC_crystalspearov",
+        "WS0005": "ETC_crystalspear",
+        "WS0020": "ETC_crystal2"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "ETC_crystal1",
+        "WS0017": "ETC_crystal1",
+        "WS0021": "ETC_particle_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "ETC_mg5op",
+        "WS0019": "ETC_mg5op",
+        "WS0022": "ETC_l2pdl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ETC_Lightpdweaponbi",
+        "WS0002": "ETC_Lightpdweaponbi",
+        "WS0003": "ETC_Lightpdweaponbi",
+        "WS0004": "ETC_Lightpdweaponbi"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0008": "ETC_andras_plateL1_variant"
+    },
+    {
+      "WS0010": "ETC_andras_plateL2_variant"
+    },
+    {
+      "WS0011": "ETC_andras_plateR1_variant"
+    },
+    {
+      "WS0009": "ETC_andras_plateR2_variant"
+    }
+  ],
+  "wings": []
+}

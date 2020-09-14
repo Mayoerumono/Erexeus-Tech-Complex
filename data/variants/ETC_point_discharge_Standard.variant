@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 5,
+	"goalVariant": true,
+    "hullId": "ETC_point_discharge",
+	"hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "ETC_point_discharge_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0026": "ETC_halom_L",
+                "WS0029": "ETC_halom_L",
+                "WS0030": "ETC_halom_L"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "ETC_l2pdl",
+                "WS0016": "ETC_l2pdl",
+                "WS0019": "ETC_crystal1",
+                "WS0020": "ETC_crystal1",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0027": "ETC_prailgun",
+                "WS0028": "ETC_prailgun",
+                "WS0031": "ETC_prailgun",
+                "WS0032": "ETC_prailgun"
+            }
+        }
+    ],
+    "wings": [
+        "ETC_Baryon_wing",
+        "ETC_Atom_wing",
+        "ETC_Atom_wing",
+        "ETC_Atom_wing",
+        "ETC_Electron_wing"
+    ]
+}

@@ -1,0 +1,114 @@
+{
+  "hullName": "ETC_tanker_1",
+  "hullId": "ETC_tanker_1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ETC_tanker_1.png",
+  "style": "ETC_TECH",
+  "height": 170,
+  "width": 74,
+  "center": [37, 85],
+  "collisionRadius": 110,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system",
+    "ETC_infiniteneedle",
+    "civgrade"
+  ],
+  "builtInWings": [
+    "ETC_needle_wing"
+  ],
+  "builtInWeapons": {
+    "WS0012": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-32, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-32, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [59, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [59, 19]
+    },
+    {
+      "id": "LB 1",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [
+        -12, -0,
+        -0.5, -0
+      ]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-27, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66.5, -0],
+      "length": 1,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    84, 31,
+    13, 36.5,
+    -85, 31,
+    -69, 18,
+    -69, -18,
+    -85, -31,
+    13, -36.5,
+    84, -31,
+    53, -0
+  ]
+}

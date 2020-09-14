@@ -1,0 +1,49 @@
+{
+  "variantId": "ETC_ionization_Support",
+  "hullId": "ETC_ionization",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "ETC_clusterbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler",
+        "WS0012": "ionbeam",
+        "WS0013": "gravitonbeam",
+        "WS0014": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heatseeker",
+        "WS0010": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ETC_l2pdl",
+        "WS0008": "ETC_l2pdl"
+      }
+    }
+  ]
+}

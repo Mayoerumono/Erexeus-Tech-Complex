@@ -1,0 +1,90 @@
+{
+  "hullName": "ETC_Baryon",
+  "hullId": "ETC_Baryon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/ETC_Baryon_wing.png",
+  "style": "ETC_TECH",
+  "height": 50,
+  "width": 44,
+  "center": [22, 25],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system_f"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_tidetorpedo_S",
+    "WS0002": "ETC_tidetorpedo_S"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -7],
+      "length": 1,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-18.5, 7],
+      "length": 1,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-20.5, -12],
+      "length": 1,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-20.5, 12],
+      "length": 1,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    19.5, 19.5,
+    -19, 20.5,
+    -19, -20.5,
+    19.5, -19.5
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "hullName": "ETC_andras",
+  "hullId": "ETC_andras",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ETC_andras_parts/ETC_andras_hull.png",
+  "style": "ETC_TECH2",
+  "height": 325,
+  "width": 90,
+  "center": [45, 162.5],
+  "collisionRadius": 184.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 175.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_Lightpdweaponbi",
+    "WS0002": "ETC_Lightpdweaponbi",
+    "WS0003": "ETC_Lightpdweaponbi",
+    "WS0004": "ETC_Lightpdweaponbi",
+    "WS0005": "ETC_crystalspear",
+    "WS0006": "ETC_virtual_particle_ocore",
+    "WS0007": "ETC_virtual_particle_ocore_small",
+    "WS0012": "ETC_andras_plateL3",
+    "WS0013": "ETC_andras_plateR3",
+    "WS0014": "ETC_andras_plateL4",
+    "WS0015": "ETC_andras_plateR4",
+    "WS005B": "ETC_crystalspearov"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-155.5, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": -135,
+      "locations": [-155.5, -21]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": 45,
+      "locations": [154.5, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 160,
+      "angle": -45,
+      "locations": [154.5, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91.5, -0]
+    },
+    {
+      "id": "WS005B",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-34.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 8,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -19,
+      "locations": [-11.5, 0]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 19,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -8,
+      "locations": [-11.5, 0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [46.5, 38]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [46.5, -38]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [113.5, 34]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [113.5, -34]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [126.5, 22]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [126.5, -22]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [66.5, 22]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [66.5, -22]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [50.5, -0]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [22.5, -0]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-74.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115.5, -0],
+      "length": 1,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ETC_TECH2"
+    },
+    {
+      "location": [-102.5, 34],
+      "length": 1,
+      "width": 18,
+      "angle": 170,
+      "contrailSize": 128,
+      "style": "ETC_TECH2"
+    },
+    {
+      "location": [-102.5, -34],
+      "length": 1,
+      "width": 18,
+      "angle": -170,
+      "contrailSize": 128,
+      "style": "ETC_TECH2"
+    }
+  ],
+  "bounds": [
+    142.5, -32,
+    -14, -35.5,
+    -35.5, -30,
+    -97.5, -44.5,
+    -93.5, -31.5,
+    -146.5, -28,
+    -160.5, -14,
+    -113.5, -12,
+    -113.5, 12,
+    -160.5, 14,
+    -146.5, 28,
+    -93.5, 31.5,
+    -97.5, 44.5,
+    -35.5, 30,
+    -14, 35.5,
+    142.5, 32,
+    161, 12,
+    87.5, 11,
+    87.5, -11,
+    161, -12
+  ]
+}

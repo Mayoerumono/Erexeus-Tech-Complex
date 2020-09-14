@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 1,
+	"goalVariant": true,
+	"permaMods": [],
+    "hullId": "ETC_useful_work",
+    "hullMods": [
+        "insulatedengine",
+        "unstable_injector",
+        "auxiliarythrusters"
+    ],
+    "quality": 0,
+    "variantId": "ETC_useful_work_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0007": "ETC_heavy_mining_laser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0004": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ETC_mg5op",
+                "WS0002": "ETC_mg5op"
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+  "hullName": "ETC_hyperbola",
+  "hullId": "ETC_hyperbola",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ETC_hyperbola.png",
+  "style": "ETC_TECH",
+  "height": 114,
+  "width": 82,
+  "center": [41, 57],
+  "collisionRadius": 75,
+  "shieldCenter": [-23, -0],
+  "shieldRadius": 85,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWeapons": {
+    "WS0005": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 45,
+      "locations": [-14, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -45,
+      "locations": [-14, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-26, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [29, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, -0],
+      "length": 1,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-40, 17.5],
+      "length": 1,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-40, -17.5],
+      "length": 1,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    54.5, -8.5,
+    10, -18,
+    -10, -41,
+    -55.5, -12,
+    -45, -9,
+    -45, 9,
+    -55.5, 12,
+    -10, 41,
+    10, 18,
+    54.5, 8.5,
+    29.5, -0
+  ]
+}

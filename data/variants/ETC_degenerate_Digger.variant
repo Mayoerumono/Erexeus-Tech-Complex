@@ -1,0 +1,47 @@
+{
+  "variantId": "ETC_degenerate_Digger",
+  "hullId": "ETC_degenerate",
+  "displayName": "Digger",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 3,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "ETC_matrix_field_shield"
+  ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "ETC_heavy_mining_laser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ETC_mg5op",
+                "WS0006": "ETC_mg5op"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "ETC_l2pdl",
+                "WS0012": "ETC_l2pdl"
+            }
+        }
+    ],
+    "wings": []
+}

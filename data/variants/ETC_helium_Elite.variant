@@ -1,0 +1,67 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 33,
+    "fluxVents": 32,
+    "goalVariant": true,
+    "hullId": "ETC_helium",
+    "hullMods": [
+        "insulatedengine",
+        "eccm",
+        "fluxbreakers",
+        "ETC_matrix_field_shield"
+    ],
+    "quality": 0,
+    "variantId": "ETC_helium_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0023": "ETC_purifier"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0036": "ETC_crystal3",
+                "WS0037": "ETC_crystal3",
+                "WS0003": "heavyneedler",
+                "WS0004": "heavyneedler",
+                "WS0032": "ETC_crystal2",
+                "WS0033": "ETC_crystal2"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0021": "ETC_tidetorpedo_Sh",
+                "WS0022": "ETC_tidetorpedo_Sh"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ETC_halom_L",
+                "WS0006": "ETC_halom_L",
+                "WS0007": "ETC_halom_L",
+                "WS0008": "ETC_halom_L"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ETC_l2pdl",
+                "WS0002": "ETC_l2pdl",
+                "WS0026": "ETC_l1pdl",
+                "WS0027": "ETC_l1pdl",
+                "WS0028": "ETC_l1pdl",
+                "WS0029": "ETC_l1pdl",
+                "WS0030": "ETC_mg5op",
+                "WS0031": "ETC_mg5op"
+            }
+        }
+    ],
+    "wings": []
+}

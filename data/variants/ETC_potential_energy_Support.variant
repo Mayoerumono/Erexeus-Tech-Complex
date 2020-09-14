@@ -1,0 +1,36 @@
+{
+  "variantId": "ETC_potential_energy_Support",
+  "hullId": "ETC_potential_energy",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 2,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "salamanderpod",
+                "WS0008": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ETC_mg5op",
+                "WS0003": "ETC_l2pdl",
+                "WS0004": "ETC_l2pdl"
+            }
+        }
+    ],
+    "wings": [
+        "ETC_Electron_wing",
+        "ETC_Electron_wing",
+        "broadsword_wing"
+    ]
+}

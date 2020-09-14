@@ -1,0 +1,23 @@
+{
+  "hullName": "ETC_andras_plateL1",
+  "hullId": "ETC_andras_plateL1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ETC_andras_parts/ETC_andras_plateL1.png",
+  "style": "ETC_TECH2",
+  "height": 256,
+  "width": 134,
+  "center": [67, 128],
+  "collisionRadius": 145,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 152,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "builtInMods": ["reduced_explosion"],
+  "bounds": [
+    -117.5, 63,
+    -49, 53,
+    -30, 32.5,
+    -72.5, 25.5
+  ]
+}

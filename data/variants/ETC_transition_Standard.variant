@@ -1,0 +1,64 @@
+{
+  "variantId": "ETC_transition_Standard",
+  "hullId": "ETC_transition",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 11,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ETC_crystal2",
+        "WS0005": "ETC_crystal2",
+        "WS0007": "ETC_crystal3"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyneedler",
+        "WS0012": "ETC_crystal1",
+        "WS0013": "ETC_crystal1"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ETC_tidetorpedo_M"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ETC_l1pdl",
+        "WS0011": "ETC_l1pdl",
+        "WS0014": "ETC_l1pdl",
+        "WS0015": "ETC_l1pdl",
+        "WS0016": "ETC_l2pdl",
+        "WS0017": "ETC_l2pdl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ETC_mg5op",
+        "WS0008": "ETC_mg5op",
+        "WS0009": "ETC_mg5op"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

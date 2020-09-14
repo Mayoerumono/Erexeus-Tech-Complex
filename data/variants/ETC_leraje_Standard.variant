@@ -1,0 +1,46 @@
+{
+  "variantId": "ETC_leraje_Standard",
+  "hullId": "ETC_leraje",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ETC_halom_L",
+        "WS0006": "ETC_halom_L"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ETC_crystal1",
+        "WS0004": "ETC_thunderstormsrm_S"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ETC_l1pdl",
+        "WS0002": "ETC_l1pdl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

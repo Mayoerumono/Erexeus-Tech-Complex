@@ -1,0 +1,38 @@
+{
+  "variantId": "ETC_potential_energy_Standard",
+  "hullId": "ETC_potential_energy",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 2,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "ETC_halom_L",
+        "WS0008": "ETC_halom_L"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ETC_mg5op",
+        "WS0003": "ETC_l2pdl",
+        "WS0004": "ETC_l2pdl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ETC_Atom_wing",
+    "ETC_Atom_wing",
+    "claw_wing"
+  ]
+}

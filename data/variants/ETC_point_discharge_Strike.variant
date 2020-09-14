@@ -1,0 +1,50 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 9,
+    "fluxVents": 6,
+	"goalVariant": true,
+    "hullId": "ETC_point_discharge",
+	"hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "ETC_point_discharge_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0026": "ETC_tidetorpedo_L"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0029": "ETC_thunderstormsrm_M",
+                "WS0030": "ETC_thunderstormsrm_M"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0027": "ETC_prailgun",
+                "WS0028": "ETC_prailgun",
+                "WS0031": "ETC_prailgun",
+                "WS0032": "ETC_prailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "ETC_mg5op",
+                "WS0022": "ETC_mg5op"
+            }
+        }
+    ],
+    "wings": [
+        "ETC_Baryon_wing",
+        "ETC_Baryon_wing",
+        "ETC_Baryon_wing",
+        "longbow_wing",
+        "longbow_wing"
+    ]
+}

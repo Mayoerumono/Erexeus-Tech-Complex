@@ -1,0 +1,166 @@
+{
+  "hullName": "ETC_ionization",
+  "hullId": "ETC_ionization",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ETC_ionization.png",
+  "style": "ETC_TECH",
+  "height": 254,
+  "width": 118,
+  "center": [59, 127],
+  "collisionRadius": 150.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 145,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWeapons": {
+    "WS0023": "ETC_virtual_particle_core"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 90,
+      "locations": [-43, 33]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": -90,
+      "locations": [-43, -33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -37.5,
+      "locations": [-7, -18]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 37.5,
+      "locations": [-7, 18]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-56, 48]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-56, -48]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [48, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [90, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-15.5, 34.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-15.5, -34.5]
+    },
+    {
+      "id": "WS0023",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-45, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-108.5, -0],
+      "length": 1,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-79.5, 46],
+      "length": 1,
+      "width": 14,
+      "angle": 153.5,
+      "contrailSize": 14,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-79.5, -46],
+      "length": 1,
+      "width": 14,
+      "angle": -153.5,
+      "contrailSize": 14,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    95, 0,
+    126, 25,
+    -12, 30.5,
+    -10, 39,
+    -80.5, 58.5,
+    -91, 51,
+    -76.5, 46.5,
+    -123.5, 13,
+    -109, 8,
+    -109, -8,
+    -123.5, -13,
+    -76.5, -46.5,
+    -91, -51,
+    -80.5, -58.5,
+    -10, -39,
+    -12, -30.5,
+    126, -25
+  ]
+}

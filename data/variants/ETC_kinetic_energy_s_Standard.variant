@@ -1,0 +1,15 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "permaMods": [],
+  "hullId": "ETC_kinetic_energy_s",
+  "hullMods": [
+    "insulatedengine",
+	"solar_shielding"
+  ],
+  "quality": 0.5,
+  "variantId": "ETC_kinetic_energy_s_Standard",
+  "weaponGroups": []
+}

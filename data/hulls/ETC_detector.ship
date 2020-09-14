@@ -1,0 +1,70 @@
+{
+  "hullName": "ETC_detector",
+  "hullId": "ETC_detector",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ETC_detector.png",
+  "style": "ETC_TECH",
+  "height": 63,
+  "width": 42,
+  "center": [21, 31.5],
+  "collisionRadius": 42,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system",
+    "hiressensors",
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0003": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-11.5, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-11.5, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, -0],
+      "length": 1,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    25, -13,
+    -11.5, -21,
+    -24, -15,
+    -24, 15,
+    -11.5, 21,
+    25, 13,
+    14, -0
+  ]
+}

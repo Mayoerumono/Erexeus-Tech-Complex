@@ -1,0 +1,58 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 19,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "ETC_paradox_scholar",
+    "hullMods": [
+        "insulatedengine",
+        "targetingunit"
+        ],
+    "permaMods": [],
+    "variantId": "ETC_paradox_scholar_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "ETC_crystal2",
+                "WS0015": "autopulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "ETC_tidetorpedo_Sh",
+                "WS0010": "ETC_tidetorpedo_Sh"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ETC_crystal1",
+                "WS0008": "ETC_crystal1",
+                "WS0014": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "ETC_prailgun",
+                "WS0012": "ETC_prailgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ETC_l1pdl",
+                "WS0004": "ETC_l1pdl",
+                "WS0005": "taclaser",
+                "WS0006": "taclaser"
+            }
+        }
+    ]
+}

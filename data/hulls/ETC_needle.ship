@@ -1,0 +1,46 @@
+{
+  "hullName": "ETC_needle",
+  "hullId": "ETC_needle",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/ETC_needle_wing.png",
+  "style": "ETC_TECH",
+  "height": 26,
+  "width": 24,
+  "center": [12, 13],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system_f"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_superEMPpdweaponbi"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 22.5,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -0],
+      "length": 1,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    -9, 10,
+    -9, -10,
+    12, -0
+  ]
+}

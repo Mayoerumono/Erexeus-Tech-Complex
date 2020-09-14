@@ -1,0 +1,144 @@
+{
+  "hullName": "ETC_mechanical_energy",
+  "hullId": "ETC_mechanical_energy",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ETC_mechanical_energy.png",
+  "style": "ETC_TECH",
+  "height": 170,
+  "width": 78,
+  "center": [39, 85],
+  "collisionRadius": 95,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWeapons": {
+    "WS0009": "ETC_virtual_particle_core_small",
+    "WS0010": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 35,
+      "locations": [5, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -35,
+      "locations": [5, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [-36, 17]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [-36, -17]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-19, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63.5, 19],
+      "length": 1,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-63.5, -19],
+      "length": 1,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-71.5, -0],
+      "length": 1,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    28, -0,
+    80, -9.5,
+    63, -26.5,
+    -17, -35.5,
+    -25, -24.5,
+    -31.5, -39,
+    -58, -38.5,
+    -64.5, -31,
+    -55, -32,
+    -62.5, -16.5,
+    -83, -12.5,
+    -72, -9,
+    -72, 9,
+    -83, 12.5,
+    -60.5, 19.5,
+    -62.5, 35.5,
+    -31.5, 39,
+    -25, 24.5,
+    -17, 35.5,
+    63, 26.5,
+    80, 9.5
+  ]
+}

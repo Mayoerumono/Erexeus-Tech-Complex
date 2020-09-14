@@ -1,0 +1,103 @@
+{
+  "hullName": "ETC_ground_state",
+  "hullId": "ETC_ground_state",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ETC_ground_state.png",
+  "style": "ETC_TECH",
+  "height": 89,
+  "width": 62,
+  "center": [31, 44.5],
+  "collisionRadius": 52,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system",
+    "phasefield",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "WS0002": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-13.5, 22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [14.5, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [14.5, -15]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, -17.5],
+      "length": 1,
+      "width": 12,
+      "angle": -167.5,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-39, 17.5],
+      "length": 1,
+      "width": 12,
+      "angle": 167.5,
+      "contrailSize": 12,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-42, -0],
+      "length": 1,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    34, -23.5,
+    -27.5, -30,
+    -42.5, -0,
+    -27.5, 30,
+    34, 23.5,
+    44.5, -0
+  ]
+}

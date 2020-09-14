@@ -1,0 +1,128 @@
+{
+  "hullName": "ETC_kinetic_energy",
+  "hullId": "ETC_kinetic_energy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ETC_kinetic_energy.png",
+  "style": "ETC_TECH",
+  "height": 70,
+  "width": 84,
+  "center": [42, 35],
+  "collisionRadius": 55,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system"
+  ],
+  "builtInWeapons": {
+    "WS0005": "ETC_kinetic_energy_cover",
+    "WS0006": "ETC_virtual_particle_core_small"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-8, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-8, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-5, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-5, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -28],
+      "length": 1,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-19, 28],
+      "length": 1,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-26, -10],
+      "length": 1,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-26, 10],
+      "length": 1,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-19, -0],
+      "length": 1,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    30, 12,
+    9, 13,
+    -9, 42,
+    -26, -0,
+    -9, -42,
+    9, -13,
+    30, -12
+  ]
+}
