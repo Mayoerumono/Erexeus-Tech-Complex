@@ -1,0 +1,27 @@
+{
+	"id":"ETC_destroy_mode",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.ETC_destroy_mode_Stats",
+	
+
+	"engineGlowLengthMult":1.7,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":1.7,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":150,
+		"burstMovementPotential":0,
+		"averageSpeedMult":2,
+	}
+}

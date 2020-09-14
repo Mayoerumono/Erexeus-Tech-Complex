@@ -1,0 +1,17 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+虚粒子系统,ETC_erexeus_system,3,,厄雷修斯技术综合体,,,,,TRUE,,999,999,999,999,data.hullmods.ETC_erexeus_system,,,graphics/hullmods/ETC_erexeus_system.png
+轻型虚粒子系统,ETC_erexeus_system_f,3,,厄雷修斯技术综合体,,,,,TRUE,,999,999,999,999,data.hullmods.ETC_erexeus_system_f,,,graphics/hullmods/ETC_erexeus_system.png
+矩阵力场护盾,ETC_matrix_field_shield,2,,SU重工,,,12000,,,,2,4,6,10,data.hullmods.ETC_matrix_field_shield,"-将舰船的内置护盾替换成该全角护盾，该护盾与一般全角护盾几乎无异
+-与原来相比减少{%s}维持护盾所需幅能，降低{%s}护盾强度
+-护盾展开速度仅有一般全角护盾的{%s}
+-可以安装大多数护盾相关插件
+
+一种在第二次AI战争前被推广使用的护盾。较内置于舰船上的POCT屏障而言，这种力场护盾虽然强度一般，但是凭借着模块化的设计，更低的能耗，与更小的体积，使用这种护盾的舰船在一些情况下将可能会获得更加好的防护。不过，为了能让没有接触过的人也能快速为舰船更换这种设备，这种发生器牺牲了通用性，使用了与POCT屏障护盾发生器相同的安装接口。",,graphics/hullmods/ETC_matrix_field_shield.png
+微型目标定位模块,ETC_microtargetingmodule,3,,SU重工,"shields, defensive",护盾,,,TRUE,,999,999,999,999,data.hullmods.ETC_microtargetingmodule,"-提升非导弹武器{%s}的射程
+-不兼容{%s}
+
+内置在舰船上的定位模块。以常规的目标定位系统为基础，进行了包括但不限于目标跟踪算法，武器控制，设备体积与内部硬件排布等优化，所以，即便是这么一种量产型的模块这样效果也远远超越多数定位系统。",,graphics/hullmods/ETC_micro_targeting_module.png
+护航无人机工厂,ETC_infiniteneedle,3,,SU重工,,,,,TRUE,,999,999,999,999,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"-维持舰船的整备速率在满状态
+
+通常会内置在综合体的运输船或者战列舰上的设备，舰船上附带的无人小型工厂能够很快地生产出足够的战机底盘，以补充不断消耗的无人机。",,graphics/hullmods/ETC_infiniteneedle.png
+,,,,,,,,,,,,,,,,,,

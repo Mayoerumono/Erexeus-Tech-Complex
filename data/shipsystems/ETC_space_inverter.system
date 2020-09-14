@@ -1,0 +1,23 @@
+{
+	"id":"ETC_space_inverter",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.ETC_space_inverter_Stats",
+	
+	"jitterColor":[80,210,210,50],
+	"jitterCopies":5,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0.2,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"ETC_space_inverter_in",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	"aiHints":{
+	}
+}

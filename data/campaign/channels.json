@@ -1,0 +1,25 @@
+{
+	"defaultChannels":[
+		"ETC_public",
+	],
+	"ETC_public":{
+		"name":"技术综合体公共频道",
+		"logo":"graphics/icons/intel/ETC.png",
+		"icon":"graphics/icons/intel/ETC.png",
+		"image":"graphics/factions/erexeus_tech_complex.png",
+		"sound":"ui_channel_news",
+		"faction":"ETC",
+		"type":"新闻消息",
+		"shortType":"新闻",
+	},
+	"ETC_internal":{
+		"name":"技术综合体军方频道",
+		"logo":"graphics/icons/intel/ETC2.png",
+		"icon":"graphics/icons/intel/ETC2.png",
+		"image":"graphics/factions/erexeus_tech_complex.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"ETC",
+		"type":"军方消息",
+		"shortType":"军方",
+	},
+}

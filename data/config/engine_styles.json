@@ -1,0 +1,28 @@
+{
+	"ETC_TECH":{
+		"engineColor":[100,200,255,255],
+		"engineCampaignColor":[50,165,255,255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":1.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.25,
+		"contrailColor":[100,165,255,15],
+		"contrailCampaignColor":[60,140,255,15],
+		"glowSizeMult":0.5,
+		"type":"GLOW"
+	},
+	"ETC_TECH2":{
+		"engineColor":[255,205,140,255],
+		"engineCampaignColor":[255,180,80,255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":1.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.25,
+		"contrailColor":[255,150,80,15],
+		"contrailCampaignColor":[255,110,50,15],
+		"glowSizeMult":0.5,
+		"type":"GLOW"
+	},
+}

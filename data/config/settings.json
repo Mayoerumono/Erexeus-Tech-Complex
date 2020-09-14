@@ -1,0 +1,67 @@
+{
+	"ETC_isShipCoreFlashOn":true,
+	"ETC_isShipCoreParticleOn":true,
+	"ETC_isShipEngineParticleOn":true,
+	"ETC_isShipEngineTrailOn":true,
+
+	#AddTrailMemberAnimated(CombatEntityAPI linkedEntity, float ID, SpriteAPI sprite, Vector2f position, float startSpeed, float endSpeed, float angle, float startAngularVelocity, float endAngularVelocity, float startSize, float endSize, Color startColor, Color endColor, float opacity, float inDuration, float mainDuration, float outDuration, int blendModeSRC, int blendModeDEST, float textureLoopLength, float textureScrollSpeed, Vector2f offsetVelocity, @Nullable Map<String, Object> advancedOptions)
+	#AddTrailMemberAdvanced(CombatEntityAPI linkedEntity, float ID, SpriteAPI sprite, Vector2f position, float startSpeed, float endSpeed, float angle, float startAngularVelocity, float endAngularVelocity, float startSize, float endSize, Color startColor, Color endColor, float opacity, float inDuration, float mainDuration, float outDuration, int blendModeSRC, int blendModeDEST, float textureLoopLength, float textureScrollSpeed, Vector2f offsetVelocity, @Nullable Map<String, Object> advancedOptions)
+
+
+	#==========================================
+	#==========================================
+
+	"graphics":{
+		"shield":{
+			"ETC_grid_shield":"graphics/fx/ETC_grid_shield.png",
+		},
+		"industry":{
+			"ETC_pshield_texture":"graphics/planets/ETC_planetary_shield.png",
+		},
+		"fx": {
+			"ETC_trail_normal":"graphics/fx/ETC_beamfringe01.png",
+			"ETC_trail_smooth":"graphics/fx/ETC_beamfringe02.png",
+			"ETC_trail_particleonly":"graphics/fx/ETC_particle_fringe_90.png",
+			"ETC_trail_particle":"graphics/fx/ETC_particle2_fringe_90.png",
+			"ETC_engine_tex":"graphics/fx/ETC_engine_tex.png",
+			"ETC_shield_inner":"graphics/fx/ETC_grid_shield.png",
+			"ETC_shield_inner2":"graphics/fx/ETC_matrix_field_shield.png",
+			"ETC_shield_ring":"graphics/fx/shields256ringc.png",
+			"ETC_virtual_particle_core_golw_w":"graphics/fx/ETC_virtual_particle_core_golw_w.png",
+			"ETC_golwball":"graphics/fx/hit_glow.png",
+			"ETC_ship_vent_fringe":"graphics/fx/emp_arcs.png",
+			"ETC_smoothblock":"graphics/fx/ETC_smoothblock.png",
+			"ETC_explode_ring":"graphics/fx/ETC_explode_ring.png",
+			"ETC_explode_ring_vt":"graphics/fx/ETC_explode_ring_vt.png",
+		},
+		"blueprint_packages": {
+			"ETC_blueprint_package_wp": "graphics/icons/cargo/ETC_blueprint_package_n.png",
+			"ETC_blueprint_package_ship": "graphics/icons/cargo/ETC_blueprint_package_n.png",
+		},
+		"illustrations": {
+			"eventide": "graphics/illustrations/eventide.jpg",
+			"cargo_pod_drift": "graphics/illustrations/cargo_pod_drift.jpg",
+			"ETC_ringworld": "graphics/illustrations/ETC_ringworld.png",
+		},
+		"characters": {
+			"tomarenai": "graphics/portraits/TOMARENAI.png",
+		},
+		"campaignEntities":{
+			"ETC_hypergate_glow":"graphics/stations/ETC_hypergate_glow.png",
+		},
+		"hullmods":{
+			"ETC_erexeus_system_buff":"graphics/icons/hullsys/ETC_erexeus_system_buff.png",
+			"ETC_none":"graphics/weapons/ETC_none.png",
+		},
+	},
+	"designTypeColors":{
+		"厄雷修斯技术综合体":[190,240,255,255],
+		"SU重工":[190,240,255,255],
+		"热核基金会":[255,187,91,255],
+    },
+	"hullmods":{
+	},
+	"plugins": {
+		"ETC_CombatEveryFram":"data.scripts.plugins.ETC_CombatEveryFram",
+	},
+}

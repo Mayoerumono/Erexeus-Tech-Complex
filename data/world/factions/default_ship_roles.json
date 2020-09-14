@@ -1,0 +1,143 @@
+{
+	"combatSmallForSmallFleet":{
+		"ETC_hyperbola_Standard":8,
+		"ETC_hyperbola_Support":4,
+		"ETC_hyperbola_Strike":2,
+		"ETC_kinetic_energy_Standard":7,
+		"ETC_kinetic_energy_Overdriven":7,
+		"ETC_detector_Standard":1,
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"ETC_hyperbola_Standard":9,
+		"ETC_hyperbola_Support":5,
+		"ETC_hyperbola_Strike":3,
+		"ETC_kinetic_energy_Standard":7,
+		"ETC_kinetic_energy_Overdriven":5,
+		"ETC_detector_Standard":1,
+		"ETC_shax_Standard":3,
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"ETC_mechanical_energy_Standard":9,
+		"ETC_mechanical_energy_Assault":7,
+		"ETC_leraje_Standard":6,
+		"ETC_leraje_Strike":4,
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"ETC_ionization_Standard":8,
+		"ETC_ionization_Support":5,
+		"ETC_paradox_scholar_Standard":6,
+		"ETC_paradox_scholar_Elite":3,
+		"ETC_potential_energy_Standard":5,
+		"ETC_potential_energy_Support":3,
+		"ETC_andras_Elite":1,
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"ETC_helium_Elite":2,
+		"ETC_helium_Support":1,
+		"ETC_transition_Standard":8,
+		"ETC_transition_Elite":6,
+		"ETC_point_discharge_Standard":6,
+		"ETC_point_discharge_Strike":4,
+		"ETC_point_discharge_Support":4,
+		"fallback":{"combatLarge":1},
+	},
+	
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{
+		"ETC_kinetic_energy_s_Standard":8,
+		"ETC_detector_Standard":4,
+		"ETC_useful_work_Standard":3,
+	},
+
+	"carrierSmall":{
+	},
+	"carrierMedium":{
+	},
+	"carrierLarge":{
+	},
+
+	"phaseSmall":{
+		"ETC_ground_state_Standard":9,
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	"freighterSmall":{
+		"ETC_freighter_1_Standard":10,
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"freighterMedium":{
+		"ETC_freighter_1_Standard":10,
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5},
+	},
+	"freighterLarge":{
+		"ETC_degenerate_Standard":9,
+		"ETC_degenerate_Digger":6,
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+		"ETC_tanker_1_Standard":9,
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+		"ETC_tanker_1_Standard":9,
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5},
+	},
+	"tankerLarge":{
+		"ETC_degenerate_Standard":8,
+		"ETC_degenerate_Digger":5,
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+		"ETC_detector_Standard":10,
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	"tug":{
+		"ETC_useful_work_Standard":9,
+		"fallback":{"utility":1},
+	},
+	"crig":{
+	},
+	"utility":{
+		"ETC_useful_work_Standard":9,
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

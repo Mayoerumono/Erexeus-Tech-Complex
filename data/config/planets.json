@@ -1,0 +1,23 @@
+{
+	"ETC_moon2":{
+		"name":"迷宫行星",
+		"tilt":-23,
+		"pitch":5,
+		"rotation":2,
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1,
+		"atmosphereThicknessMin":7,
+		"atmosphereColor":[160,180,190,125],
+		"texture":"graphics/planets/ETC_moon2.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,120,140,255],
+		"isStar":false,
+		"lightPosition":[0,0,1],
+		"glowTexture":"graphics/planets/ETC_moon2_glow.png",
+		"glowColor":[170,225,225,255],
+		"useReverseLightForGlow":true,
+		"cloudTexture":"graphics/planets/clouds_banded01.png",
+		"cloudColor":[230,230,230,160],
+		"cloudRotation":4,
+	},
+}

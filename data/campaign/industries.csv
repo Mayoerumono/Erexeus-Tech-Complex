@@ -1,0 +1,7 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+ETC_planetaryshield,POCT行星护盾,200,150,,3,,,grounddefenses,,graphics/icons/industry/ETC_planetary_shield.png,data.campaign.industry.ETC_planetaryshield,"一种巨型化的POCT屏障护盾，通过将屏障发生器合理摆布后可以在行星表面展开一层非常坚固的护盾，可以有效抵御各种外在的进攻。
+
+与传统的行星护盾类似，不过这种屏障护盾由在发生器之下的数个庞大的虚粒子核心持续供能，要想击穿这种护盾可能要付出很大的代价。",5001.256
+ETC_ringworlddefenses,星环防御网,5000,300,,5,,,"grounddefenses, starfortress, unraidable, structure",,graphics/icons/industry/heavy_batteries_orbital.png,data.campaign.industry.ETC_ringworlddefenses,"这段星环上排列着数个从最大的体积能与两艘英仙座星区内的攻势级战列舰相比的超巨型火炮，到不可计数的常规小型点防御武器，以及一个完全运作后理论上坚固到连星球杀手之类的武器都无法击穿的选择性护盾，这一系列壮观的防御设施被星环的建造者用来防御可能遇到的任何敌人。
+
+以目前情况来看，由于人们缺少关于这类巨大结构的知识，星环的防御系统仅有少数部分勉强能运作，所以，要让这一设施失效并非不可能，但仍然需要付出大量人力物力。",5002.256
