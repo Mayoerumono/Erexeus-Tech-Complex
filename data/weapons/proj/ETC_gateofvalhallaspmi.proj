@@ -1,0 +1,41 @@
+{
+	"id":"ETC_gateofvalhallaspmi",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/ETC_ball.png",
+	"size":[20,54],
+	"center":[10,27],
+	"onHitEffect":"data.weapons.scripts.ETC_gateofvalhallaspmi_onhiteffect",
+	"collisionRadius":3,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,225,255,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":30, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":600,
+				  "acc":1000,
+				  "dec":500},
+	"fadeTime":0.5,
+	"flameoutTime":0.5,
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+					"style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLsS or QUAD_STRIP, determines which params are used
+						"engineColor":[75,200,235,235],
+						"contrailDuration":3,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2.5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0,
+						"contrailSpawnDistMult":0,
+						"contrailColor":[100,255,255,150],
+						"glowSizeMult":1.5,
+						"glowAlternateColor":[50,200,235,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				   "width":10.0,
+				   "length":60.0,
+				   "angle":180.0},
+				  ]
+}

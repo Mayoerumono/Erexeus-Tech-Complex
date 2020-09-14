@@ -1,0 +1,19 @@
+{
+	"id":"ETC_crystal2_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"onHitEffect":"data.weapons.scripts.ETC_crystal2_onhiteffect",
+	"collisionClass":"PROJECTILE_FIGHTER",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"glowColor":[65,140,255,180],
+	"glowRadius":17.5,
+	"hitGlowRadius":14,
+	"length":14,
+	"width":8,
+	"fadeTime":0.1,
+	"fringeColor":[65,140,255,225],
+	"coreColor":[200,240,225,225],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"graphics/missiles/ETC_crystal_p.png"
+}

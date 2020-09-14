@@ -1,0 +1,27 @@
+{
+	"id":"ETC_prailgun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/ETC_prailgun_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/ETC_prailgun_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/ETC_prailgun_hp_base.png",
+	"hardpointGlowSprite":"graphics/weapons/ETC_prailgun_hp_glow.png",
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	"glowColor":[50,255,255,255],
+	"turretOffsets":[6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+						"spread":15.0,
+						"particleSizeMin":8.0,
+						"particleSizeRange":9.0,
+						"particleDuration":0.4,
+						"particleCount":46,
+						"particleColor":[100,240,240,200]},
+	"projectileSpecId":"ETC_prailgun_shot",  # projectile that will be fired
+	"fireSoundTwo":"thermal_pulse_cannon_fire",	
+}
