@@ -15,8 +15,7 @@
     "ETC_erexeus_system_f"
   ],
   "builtInWeapons": {
-    "WS0001": "ETC_tidetorpedo_S",
-    "WS0002": "ETC_tidetorpedo_S"
+    "WS0001": "ETC_tidetorpedo_S"
   },
   "weaponSlots": [
     {
@@ -26,16 +25,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-3, 10]
-    },
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
-      "locations": [-3, -10]
+      "locations": [3, -0]
     },
     {
       "id": "WS0003",
