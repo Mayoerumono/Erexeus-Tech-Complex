@@ -3,7 +3,7 @@
 	"name":"厄雷修斯技术综合体",
 	"version":"0.1.0",
 	"author":"ShioZakana、FAX (文本)",
-	"description":"加入了一个从旧时代漂泊而来的神秘势力，以及他们使用划时代能源驱动的舰船与泛用的高科技武器。\n\n\n需启用LazyLib, GraphicsLib, MagicLib",
+	"description":"加入了一个从旧时代漂泊而来的神秘势力，以及他们使用划时代能源驱动的舰船与泛用的奇特武器。\n\n\n需启用LazyLib, GraphicsLib, MagicLib",
 	"gameVersion":"0.9.1a",
 	"dependencies":[
 		{"id":"lw_lazylib", "name":"LazyLib", "version":{"major":2, "minor":4e}},
