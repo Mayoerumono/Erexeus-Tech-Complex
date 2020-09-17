@@ -1,6 +1,5 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
 相位隐形 (厄雷修斯T.C.),ETC_phasecloak,,,,,,,,,,0.25,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/phase_cloak.png
-瓦尔哈拉之门,ETC_gate_of_valhalla,,,,,,,,,,2.5,10,0.5,25,,,TRUE,,,,,,TRUE,,graphics/icons/hullsys/fortress_shield.png
 空间变换器,ETC_space_inverter,,,,,,0.1,,2,0.04,0.05,1,0.3,8,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/displacer.png
 歼灭模式,ETC_destroy_mode,1,,,,,,,,,1,10,1,20,,,,,,,,,,TRUE,graphics/icons/hullsys/ETC_destroy_mode.png
 增压驱动,ETC_intensification_drive,,,,,,,,,,1.5,7,0.5,20,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
