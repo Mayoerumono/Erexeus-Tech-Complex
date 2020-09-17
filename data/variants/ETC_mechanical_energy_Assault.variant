@@ -15,8 +15,8 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS0007": "ETC_particle_gun",
-                "WS0008": "ETC_particle_gun"
+                "WS0007": "ETC_particle_reconstructor",
+                "WS0008": "ETC_particle_reconstructor"
             }
         },
         {

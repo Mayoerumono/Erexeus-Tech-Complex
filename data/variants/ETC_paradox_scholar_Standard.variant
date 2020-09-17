@@ -26,9 +26,9 @@
             "weapons": {
                 "WS0007": "ioncannon",
                 "WS0008": "ioncannon",
-                "WS0014": "ETC_particle_gun",
-                "WS0011": "ETC_particle_gun",
-                "WS0012": "ETC_particle_gun"
+                "WS0014": "ETC_particle_reconstructor",
+                "WS0011": "ETC_particle_reconstructor",
+                "WS0012": "ETC_particle_reconstructor"
             }
         },
         {

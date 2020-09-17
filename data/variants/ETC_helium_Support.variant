@@ -21,10 +21,10 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS0032": "ETC_particle_gun",
-                "WS0033": "ETC_particle_gun",
-                "WS0034": "ETC_particle_gun",
-                "WS0035": "ETC_particle_gun",
+                "WS0032": "phasebeam",
+                "WS0033": "phasebeam",
+                "WS0034": "ETC_particle_reconstructor",
+                "WS0035": "ETC_particle_reconstructor",
                 "WS0036": "ETC_buildermk4",
                 "WS0037": "ETC_buildermk4"
             }
