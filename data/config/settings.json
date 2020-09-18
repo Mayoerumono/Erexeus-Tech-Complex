@@ -19,6 +19,7 @@
 			"ETC_pshield_texture":"graphics/planets/ETC_planetary_shield.png",
 		},
 		"fx": {
+			"ETC_none":"graphics/weapons/ETC_none.png",
 			"ETC_trail_normal":"graphics/fx/ETC_beamfringe01.png",
 			"ETC_trail_smooth":"graphics/fx/ETC_beamfringe02.png",
 			"ETC_trail_particleonly":"graphics/fx/ETC_particle_fringe_90.png",
@@ -33,6 +34,7 @@
 			"ETC_smoothblock":"graphics/fx/ETC_smoothblock.png",
 			"ETC_explode_ring":"graphics/fx/ETC_explode_ring.png",
 			"ETC_explode_ring_vt":"graphics/fx/ETC_explode_ring_vt.png",
+			"ETC_buildermk4_beam_fringe":"graphics/fx/ETC_beamfringe01.png",
 		},
 		"blueprint_packages": {
 			"ETC_blueprint_package_wp": "graphics/icons/cargo/ETC_blueprint_package_n.png",
