@@ -51,11 +51,11 @@
 	],
 	"ETC_particle_reconstructor":
 	[
-		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.6,"volume":0.7},
+		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.6,"volume":0.4},
 	],
 	"ETC_buildermk4":
 	[
-		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.4,"volume":0.7},
+		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.4,"volume":0.4},
 	],
 	"ETC_space_inverter_in":
 	[
