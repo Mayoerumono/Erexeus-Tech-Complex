@@ -11,7 +11,7 @@
 	"glowColor":[50,255,255,255],
 	"turretOffsets":[6, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[8, 0],
+	"hardpointOffsets":[12, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE

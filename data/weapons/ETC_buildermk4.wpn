@@ -13,7 +13,7 @@
 	"hardpointGlowSprite":"graphics/weapons/ETC_buildermk4_hp_glow.png",
 	"turretOffsets":[16, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[20, 0],
+	"hardpointOffsets":[18.5, 0],
 	"hardpointAngleOffsets":[0],
 	"fringeColor":[0,0,0,0],
 	"coreColor":[0,0,0,0],
