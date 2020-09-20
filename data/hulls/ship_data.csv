@@ -1,6 +1,6 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
 #战机,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-电子,ETC_Electron,,SU重工,,,500,60,400,,120,0,,270,230,230,200,200,60,NONE,,,,,,,0,0,,,,,,,,,,,,,,"ETC_bp, ETC_bps",,0.3,1,2,5026.1
+电子,ETC_Electron,,SU重工,,,500,50,400,,120,0,,270,230,230,300,300,60,NONE,,,,,,,0,0,,,,,,,,,,,,,,"ETC_bp, ETC_bps",,0.3,1,2,5026.1
 原子,ETC_Atom,,SU重工,flarelauncher_single,,500,70,500,,180,0,,190,180,180,150,200,80,FRONT,,135,0,0.75,,,1,1,,,,,,,,,,,,,,ETC_bp,,0.35,1,2,5027.1
 重子,ETC_Baryon,,SU重工,flarelauncher,,700,90,300,,90,0,,110,130,100,60,90,130,FRONT,,120,0,0.9,,,3,3,,,,,,,,,,,,,,ETC_bp,,0.4,1,2,5028.1
 钢针无人机,ETC_needle,,SU重工,,,150,25,50,,32,0,,300,400,400,350,180,30,NONE,,,,,,,0,0,,,,,,,,,,,,,,"ETC_bp, ETC_bps",,0.5,1,2,5029.1
@@ -30,7 +30,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 简并,ETC_degenerate,复合运输船,SU重工,burndrive,10,9200,950,9600,,300,82,1,40,15,6,4,6,4000,FRONT,,55,0.4,0.9,,,50,70,1200,1000,10,40,7,85000,2,22,500,0.25,12,12,"CIVILIAN, FREIGHTER, TANKER","ETC_bp, ETC_bps",,0.7,5,7,5201.1
 跃迁,ETC_transition,战列巡洋舰,SU重工,ETC_fusion_injector,25,11000,1000,15000,,1000,200,1,65,50,30,9,9,3600,FRONT,,70,0.3,0.85,,,320,420,250,300,9,45,8,420000,4,20,500,0.25,40,40,COMBAT,"ETC_bp, ETC_bps",,0.55,3,6,5202.1
 尖端放电,ETC_point_discharge,航空战列舰,SU重工,ETC_cartographer_system,28,13000,1200,9600,,750,235,5,35,25,20,8,8,3800,FRONT,,70,0.3,0.85,,,450,700,320,340,11,40,6,480000,3,15,550,0.25,45,45,"CARRIER, COMBAT",ETC_bp,,0.6,4,6,5203.1
-氦,ETC_helium,战列舰,SU重工,ETC_space_inverter,30,16000,1350,22000,,1250,325,1,25,35,13,6,7,4300,FRONT,,80,0.3,0.85,,,420,600,300,350,12,32,6,650000,3,17,630,0.25,50,50,COMBAT,ETC_bp,,0.5,3,5,5204.1
+氦,ETC_helium,战列舰,SU重工,ETC_space_inverter,30,17000,1350,22000,,1300,325,1,25,35,13,6,7,4300,FRONT,,80,0.3,0.85,,,420,600,300,350,12,32,6,650000,3,17,630,0.25,50,50,COMBAT,ETC_bp,,0.5,3,5,5204.1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #特殊,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 装甲盖板,ETC_andras_plateL1,装甲盖板,,,1,1400,400,100,,100,0,,0,0,0,5,4,200,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_no_status_bar,,0.5,1,2,5251.1
