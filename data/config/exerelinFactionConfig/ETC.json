@@ -6,14 +6,14 @@
 	
 	"marketSpawnWeight":0.5,
 	
-	"rebelFleetSuffix":"Renegade",
+	"rebelFleetSuffix":"Defector",
 
-	"allowAgentActions":false,
+	"allowAgentActions":true,
 	
-	"startRelationships":{ "tritachyon": 0.25, "hegemony":-0.3, "path":-1 },
-    "maxRelationships":{ "hegemony":-0.5, "luddic_church":-0.1, "path":-1},
+	"startRelationships":{ "tritachyon": 0.25, "hegemony":-0.3, "luddic_path":-1 },
+    "maxRelationships":{ "hegemony":-0.5, "luddic_church":-0.1, "luddic_path":-1 },
     "diplomacyPositiveChance":{ "tritachyon":0.9 },
-	"diplomacyNegativeChance":{ "hegemony":0.9, "path":1.5 },
+	"diplomacyNegativeChance":{ "hegemony":0.9, "luddic_path":1.5 },
 	
 	"diplomacyTraits":["irredentist", "likes_ai", "anarchist"],
 	
@@ -29,17 +29,13 @@
 	"colonyExpeditionChance":0.7,
     "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
 	
-	"miningVariantsOrWings":["ETC_useful_work_variant", "shepherd_Starting", "venture_Balanced"],
+	"miningVariantsOrWings":["ETC_degenerate_Digger", "ETC_useful_work_Standard", "shepherd_Starting", "venture_Balanced"],
 	
 	"invasionPointMult":0.3,
 	"patrolSizeMult":1.25,
 	
-	"startShipsSolo":["ETC_hyperbola_variant"],
-	"startShipsCombatSmall":["ETC_ionization_variant"],
-	
-	"startSpecialItems":[
-        [["high_tech_package"]],
-    ],
+	"startShipsSolo":["ETC_hyperbola_Standard"],
+	"startShipsCombatSmall":["ETC_ionization_Standard"],
 	
 	"defenceStations":[
         {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
