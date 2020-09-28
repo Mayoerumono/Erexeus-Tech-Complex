@@ -61,4 +61,12 @@
 	[
 		{"file":"sounds/s/ETC_space_inverter_in.ogg","pitch":0.8,"volume":2.5},
 	],
+	"ETC_purifier_chargeup":
+	[
+		{"file":"sounds/w/ETC_purifier_chargeup.ogg","pitch":1.0,"volume":1.3},
+	],
+	"ETC_purifier_fire":
+	[
+		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":1.3},
+	],
 }

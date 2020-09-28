@@ -4,8 +4,9 @@
 	"ETC_isShipEngineParticleOn":true,
 	"ETC_isShipEngineTrailOn":true,
 
-	#AddTrailMemberAnimated(CombatEntityAPI linkedEntity, float ID, SpriteAPI sprite, Vector2f position, float startSpeed, float endSpeed, float angle, float startAngularVelocity, float endAngularVelocity, float startSize, float endSize, Color startColor, Color endColor, float opacity, float inDuration, float mainDuration, float outDuration, int blendModeSRC, int blendModeDEST, float textureLoopLength, float textureScrollSpeed, Vector2f offsetVelocity, @Nullable Map<String, Object> advancedOptions)
-	#AddTrailMemberAdvanced(CombatEntityAPI linkedEntity, float ID, SpriteAPI sprite, Vector2f position, float startSpeed, float endSpeed, float angle, float startAngularVelocity, float endAngularVelocity, float startSize, float endSize, Color startColor, Color endColor, float opacity, float inDuration, float mainDuration, float outDuration, int blendModeSRC, int blendModeDEST, float textureLoopLength, float textureScrollSpeed, Vector2f offsetVelocity, @Nullable Map<String, Object> advancedOptions)
+	"ETC_erexeus_system_defaultMainTooltipHide":false,
+	"ETC_erexeus_system_defaultTooltipHide":false,
+
 
 
 	#==========================================
