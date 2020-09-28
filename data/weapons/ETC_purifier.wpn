@@ -24,5 +24,6 @@
 					   "particleColor":[150,240,255,255]},
 	"autocharge":true,
 	"projectileSpecId":"ETC_purifier_shot",
-	"fireSoundTwo":"plasma_cannon_fire",
+	"fireSoundOne":"ETC_purifier_chargeup",
+	"fireSoundTwo":"ETC_purifier_fire",
 }
