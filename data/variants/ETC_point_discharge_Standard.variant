@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 8,
-    "fluxVents": 5,
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
 	"goalVariant": true,
     "hullId": "ETC_point_discharge",
 	"hullMods": ["insulatedengine"],
