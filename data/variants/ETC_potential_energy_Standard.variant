@@ -3,8 +3,8 @@
   "hullId": "ETC_potential_energy",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 4,
-  "fluxVents": 2,
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
   "quality": 0,
   "permaMods": [],
   "hullMods": [

@@ -1,7 +1,7 @@
 {
     "displayName": "Support",
-    "fluxCapacitors": 23,
-    "fluxVents": 23,
+    "fluxCapacitors": 24,
+    "fluxVents": 24,
     "goalVariant": true,
     "hullId": "ETC_helium",
     "hullMods": [

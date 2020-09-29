@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 10,
-    "fluxVents": 6,
+    "fluxVents": 8,
     "goalVariant": true,
     "hullId": "ETC_mechanical_energy",
     "hullMods": ["insulatedengine"],

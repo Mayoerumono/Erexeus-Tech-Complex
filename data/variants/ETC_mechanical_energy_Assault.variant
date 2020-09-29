@@ -1,7 +1,7 @@
 {
     "displayName": "Assault",
     "fluxCapacitors": 12,
-    "fluxVents": 8,
+    "fluxVents": 10,
     "goalVariant": true,
     "hullId": "ETC_mechanical_energy",
     "hullMods": [
