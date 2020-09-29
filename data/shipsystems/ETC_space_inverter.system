@@ -16,7 +16,6 @@
 
 	"clampTurnRateAfter":true,
 	"clampMaxSpeedAfter":true,
-	"alwaysAccelerate":true,
 	
 	"aiHints":{
 	}
