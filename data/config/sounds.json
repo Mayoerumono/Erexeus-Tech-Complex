@@ -69,4 +69,9 @@
 	[
 		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":1.3},
 	],
+	"ETC_prailgun_fire":
+	[
+		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":0.8},
+	],
 }
