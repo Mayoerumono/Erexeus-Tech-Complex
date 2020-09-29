@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "ETC_erexeus_system",
-    "augmentedengines"
+    "tow_cable"
   ],
   "builtInWeapons": {
     "WS0005": "blinker_red",
