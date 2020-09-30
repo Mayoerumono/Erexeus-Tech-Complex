@@ -1,9 +1,4 @@
 {
-	"music":{
-		"ETCF_all_normal":[
-			{"file":"ETC_fmmusic.ogg","source":"sounds/f","volume":1,"randomStart":true}
-		],
-	},
 	"ETC_mg_launch":[
 		{"file":"sounds/w/ETC_mg_launch0.ogg","pitch":0.8,"volume":0.1},
 		{"file":"sounds/w/ETC_mg_launch1.ogg","pitch":0.8,"volume":0.1},
