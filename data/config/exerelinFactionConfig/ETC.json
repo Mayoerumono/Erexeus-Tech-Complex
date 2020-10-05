@@ -35,7 +35,8 @@
 	"patrolSizeMult":1.25,
 	
 	"startShipsSolo":["ETC_hyperbola_Standard"],
-	"startShipsCombatSmall":["ETC_ionization_Standard"],
+	"startShipsCombatSmall":["ETC_mechanical_energy_Assault", "ETC_kinetic_energy_Overdriven", "ETC_detector_Standard"],
+	"startShipsCombatLarge":["ETC_ionization_Standard", "ETC_hyperbola_Support", "ETC_kinetic_energy_Standard"],
 	
 	"defenceStations":[
         {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
