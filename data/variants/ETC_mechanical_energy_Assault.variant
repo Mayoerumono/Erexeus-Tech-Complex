@@ -1,6 +1,6 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 12,
+    "fluxCapacitors": 10,
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "ETC_mechanical_energy",
@@ -23,8 +23,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "lightdualac",
-                "WS0004": "lightdualac"
+                "WS0003": "ETC_crystal1",
+                "WS0004": "ETC_crystal1"
             }
         },
         {
