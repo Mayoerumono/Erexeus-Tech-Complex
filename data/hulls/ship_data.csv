@@ -1,9 +1,9 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
 #战机,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-电子,ETC_Electron,,SU重工,,,500,50,400,,120,0,,270,230,230,300,300,60,NONE,,,,,,,0,0,,,,,,,,,,,,,,"ETC_bp, ETC_bps",,0.3,1,2,5026.1
-原子,ETC_Atom,,SU重工,flarelauncher_single,,500,70,500,,180,0,,190,180,180,150,200,80,FRONT,,135,0,0.75,,,1,1,,,,,,,,,,,,,,ETC_bp,,0.35,1,2,5027.1
-重子,ETC_Baryon,,SU重工,flarelauncher,,700,90,300,,90,0,,110,130,100,60,90,130,FRONT,,120,0,0.9,,,3,3,,,,,,,,,,,,,,ETC_bp,,0.4,1,2,5028.1
-钢针无人机,ETC_needle,,SU重工,,,150,25,50,,32,0,,300,400,400,350,180,30,NONE,,,,,,,0,0,,,,,,,,,,,,,,"ETC_bp, ETC_bps",,0.5,1,2,5029.1
+电子,ETC_Electron,,SU重工,,,500,50,400,,120,0,,270,230,230,300,300,60,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0.3,1,2,5026.1
+原子,ETC_Atom,,SU重工,flarelauncher_single,,500,70,500,,180,0,,190,180,180,150,200,80,FRONT,,135,0,0.75,,,1,1,,,,,,,,,,,,,,,,0.35,1,2,5027.1
+重子,ETC_Baryon,,SU重工,flarelauncher,,700,90,300,,90,0,,110,130,100,60,90,130,FRONT,,120,0,0.9,,,3,3,,,,,,,,,,,,,,,,0.4,1,2,5028.1
+钢针无人机,ETC_needle,,SU重工,,,150,25,50,,32,0,,300,400,400,350,180,30,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,0.5,1,2,5029.1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #护卫,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 斥候,ETC_detector,侦察机,SU重工,displacer_degraded,1,600,90,600,,120,20,,210,150,80,50,80,120,FRONT,,70,0.3,0.75,,,1,6,20,20,0.5,10,13,9000,5,13,80,0.25,1,1,,ETC_bp,,0.5,2,2,5051.1
@@ -17,8 +17,8 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 #驱逐,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 机械能,ETC_mechanical_energy,驱逐舰,SU重工,ETC_intensification_drive,9,4000,350,4800,,280,74,,90,60,50,35,50,650,FRONT,,70,0.3,0.8,,,50,65,70,50,2,40,9,50000,6,15,340,0.25,10,10,,"ETC_bp, ETC_bps",,0.5,2,4,5101.1
 列拉金,ETC_leraje,导弹驱逐舰,热核基金会,maneuveringjets,9,4200,380,3000,,210,60,,90,80,40,25,40,680,FRONT,,60,0.3,0.85,,,65,75,75,60,2,40,9,60000,6,17,320,0.25,10,10,COMBAT,ETC_bp,,0.35,2,3,5102.1
-阴离子-货运,ETC_freighter_1,货舰,SU重工,burndrive,6,3500,280,1500,,150,42,1,80,50,40,20,25,600,FRONT,,50,0.35,0.9,,,20,40,400,80,2,50,8,32000,5,18,240,0.25,4,4,"CIVILIAN, FREIGHTER","ETC_bp, ETC_bps",,0.6,2,4,5103.1
-阴离子-油轮,ETC_tanker_1,燃料输送舰,SU重工,burndrive,6,3500,260,1500,,150,42,1,80,50,40,20,25,620,FRONT,,50,0.35,0.9,,,20,40,70,500,2,50,8,32000,5,18,240,0.25,4,4,"CIVILIAN, TANKER","ETC_bp, ETC_bps",,0.65,2,6,5104.1
+阴离子-货运,ETC_freighter_1,货舰,SU重工,burndrive,6,3500,280,1500,,150,42,1,80,50,40,20,25,600,FRONT,,50,0.35,0.9,,,20,40,400,80,2,50,8,32000,5,18,240,0.25,3,3,"CIVILIAN, FREIGHTER","ETC_bp, ETC_bps",,0.6,2,4,5103.1
+阴离子-油轮,ETC_tanker_1,燃料输送舰,SU重工,burndrive,6,3500,260,1500,,150,42,1,80,50,40,20,25,620,FRONT,,50,0.35,0.9,,,20,40,70,500,2,50,8,32000,5,18,240,0.25,3,3,"CIVILIAN, TANKER","ETC_bp, ETC_bps",,0.65,2,6,5104.1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #巡洋,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 电离,ETC_ionization,轻型巡洋舰,SU重工,ETC_fusion_injector,15,6800,600,8000,,540,120,,70,60,20,22,23,1600,FRONT,,60,0.3,0.8,,,90,120,130,150,4,25,8,140000,6,15,450,0.25,22,22,,"ETC_bp, ETC_bps",,0.6,3,4,5151.1
