@@ -1,7 +1,7 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number,Column 48,Column 49,Column 50,Column 51,Column 52,Column 53
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #能量,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-L1点防激光,ETC_l1pdl,1,0.8,600,400,150,,,0,90,4,,,,ENERGY,,125,0,0.05,0.15,0.05,,,,,50000,,,,,"PD, ANTI_FTR","pd9, beam6, ETC_bp, ETC_bpw, rare_bp, remnant",,SU重工,,点防御,,,,,,,,,,5000.253,,,,,,
+L1点防激光,ETC_l1pdl,1,0.8,600,400,150,,,0,90,4,,,,ENERGY,,134,0,0.05,0.15,0.05,,,,,50000,,,,,"PD, ANTI_FTR","pd9, beam6, ETC_bp, ETC_bpw, rare_bp, remnant",,SU重工,,点防御,,,,,,,,,,5000.253,,,,,,
 L2点防激光,ETC_l2pdl,1,0.7,750,500,601,,,0,70,6,2,0.3,,ENERGY,,800,0,0.2,0.2,0.6,,,,,50000,,,,,"PD, ANTI_FTR","pd9, beam6, ETC_bp",,SU重工,,点防御,,,,,,,,,,5001.253,,,,,,
 晶体II,ETC_crystal1,1,0.6,1000,600,,100,,3,35,6,,,,ENERGY,130,,0.1,1.5,2,0.25,1,1.5,0.5,1.5,,900,,,500,,"energy9, ETC_bp, ETC_bpw",,热核基金会,,普通,,,,,,,,,,5002.253,,,,,,
 晶体V,ETC_crystal2,2,0.4,3600,750,,220,,5,20,12,,,,ENERGY,300,,0.1,1.9,2,0.25,1,2,1,2,,1100,,,500,,"energy14, LR, ETC_bp",,热核基金会,,普通,,,,,,,,,,5003.253,,,,,,
