@@ -1,4 +1,9 @@
 {
+	"music": {
+		"ETC_faction_market":[
+			{"file": "ETC_faction_market.ogg", "source": "sounds/f/", "volume": 1.0, "randomStart": false},
+		],
+	},
 	"ETC_mg_launch":[
 		{"file":"sounds/w/ETC_mg_launch0.ogg","pitch":0.8,"volume":0.1},
 		{"file":"sounds/w/ETC_mg_launch1.ogg","pitch":0.8,"volume":0.1},
