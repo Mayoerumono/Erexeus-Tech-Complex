@@ -6,42 +6,33 @@ OR
 ""你好， $playerName 。""",,
 greetingETCHostileWeaker,OpenCommLink,"$faction.id == ETC
 $entity.isHostile
-$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""你不可能战胜我！""",cutCommLink:切断了通讯,
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,敌对{$shipOrFleet}注意，本次对我方攻击的行为将会视为对{$faction}的挑衅，并且该次行为造成的我方财产损失皆被记录在案。,cutCommLink:切断了通讯,
 greetingETCHostileWeakerDefiant,OpenCommLink,"$faction.id == ETC
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""把你的舰船当烟花来放可能是个不错的主意。""",cutCommLink:切断了通讯,
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,对方认为没有必要和你通话。,cutCommLink:切断了通讯,
 greetingETCHostileStronger,OpenCommLink,"$faction.id == ETC
 $entity.isHostile
-$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,对方觉得没必要与你对话,cutCommLink:切断了通讯,
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,注意，你已经踏入了{$faction}的领地范围之内，为保证综合体的财产与人民的安全，我将使用武力手段将你驱逐。,cutCommLink:切断了通讯,
 greetingETCNeutral,OpenCommLink,"$faction.id == ETC
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""我觉得我们没有必要通话，明白吗？""
-OR
-对方并不想在你身上浪费时间。",cutCommLink:切断了通讯,
+FireAll PopulateOptions","""是叫做{$playerName}...？对吧，没有紧要事的话快点结束这场通话吧。""",cutCommLink:切断了通讯,
 greetingETCSuspicious,OpenCommLink,"$faction.id == ETC
 $faction.suspiciousToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""从我的路上让开。""",cutCommLink:切断了通讯,
+FireAll PopulateOptions","对方认为没有必要和你通话。
+OR
+你尝试着打开通讯频道，但并没有什么反应。",cutCommLink:切断了通讯,
 greetingETCInhospitable,OpenCommLink,"$faction.id == ETC
 $faction.inhospitableToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions",对方认为没有必要和你通话,cutCommLink:切断了通讯,
-relLevelNeutral,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == ETC",,$TheFaction对你没有什么印象，你所做的一切将会影响你们之间的关系。,,
-relLevelFavorable,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == ETC",,关系开始转好，你遇到的麻烦事也开始减少了。,,
-relLevelWelcoming,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == ETC",,你开始被$TheFaction接受，巡逻队也不会对你采取什么特别的行动。,,
-relLevelFriendly,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == ETC",,,,
-relLevelCooperative,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == ETC",,,,
-relLevelSuspiciousG,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == ETC",,他们更愿意频繁地去搜查你的舰队，顺便找到点什么。,,
-relLevelInhospitable,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == ETC",,$TheFaction非常排斥你，但还不至于到攻击你的程度。,,
-relLevelHostile,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == ETC",,他们对待大多数不太认识的人都这样，不必见怪。,,
-relLevelVengeful,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == ETC",,,,
-flavorTextMarketER,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == ETC","AddText ""热闹的港口漂浮着各式导购机器人，商人 们以夸张的动作推销着他们的货物，新闻 播报声、机械声与谈价声填满了每一个角 落，战力抵得上装甲车的警卫们在维持着 秩序，倒也难怪这里治安这么好。"" textGrayColor",,,
+FireAll PopulateOptions","对方认为没有必要和你通话。
+OR
+你尝试着打开通讯频道，但并没有什么反应。",cutCommLink:切断了通讯,
+relLevelNeutralETC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == ETC",,$faction}对你保持着中立的印象，你所做的一切将会影响你们之间的关系。,,
+relLevelSuspiciousETC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == ETC",,与对你投以冷淡态度相比，他们更愿意频繁地去搜查你的舰队，顺便找到点什么。,,
+relLevelHostileETC,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == ETC",,很显然，$faction}并不信任星域中的大多数人，但这并不是不能改变的。,,
+flavorTextMarketETC,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ETC","AddText ""在穿过与大厅相连的安防走廊后，首先映入眼帘的是一块又一块泛着淡蓝色光芒的白色金属内墙，天花板下数个嵌入式的照明灯散发着柔和的光芒，照亮着浅灰色的磨砂金属地板。各种穿着不同服饰的人们在大厅中或走或站，有的在拿着个人终端推销着产品，有的互相搀扶着走向升降梯，有的则一脸满足地看着终端上的信息走向大厅出口。除了时而经过的一队全部配备着夸张武装的巡警之外，这处地方丝毫没有让人感到不适的地方。"" marketFlavorTextColor
+AddText ""在个人终端中接入了当地市场提供的交易频道之后，你将其收了起来，计划着下一步行动。"" marketFlavorTextColor",,,
