@@ -1,0 +1,105 @@
+{
+  "hullName": "ETC_HCU00",
+  "hullId": "ETC_HCU00",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ETC_HCU00/ETC_HCU00_mask.png",
+  "style": "ETC_TECH",
+  "height": 38,
+  "width": 42,
+  "center": [21, 9.5],
+  "collisionRadius": 21,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system_f"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_HCU00_microvulcan",
+    "WS0002": "ETC_HCU00_Rshoulder",
+    "WS0003": "ETC_HCU00_Lshoulder",
+    "WS0004": "ETC_HCU00_Lhand",
+    "WS0005": "ETC_HCU00_Rhand",
+    "WS0006": "ETC_HCU00_body"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 4.5],
+      "length": 1,
+      "width": 10,
+      "angle": 153.5,
+      "contrailSize": 10,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-8, -4.5],
+      "length": 1,
+      "width": 10,
+      "angle": -153.5,
+      "contrailSize": 10,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    2.5, -20,
+    -9, -0,
+    2.5, 20,
+    11, -0
+  ]
+}
