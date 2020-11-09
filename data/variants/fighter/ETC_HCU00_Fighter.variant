@@ -1,0 +1,27 @@
+{
+  "variantId": "ETC_HCU00_Fighter",
+  "hullId": "ETC_HCU00",
+  "displayName": "突击型",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ETC_HCU00_Rhand"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ETC_HCU00_microvulcan"
+      }
+    }
+  ]
+}
