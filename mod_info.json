@@ -1,14 +1,14 @@
 {
 	"id":"Erexeus_Tech_Complex_FactionMod",
 	"name":"厄雷修斯技术综合体",
-	"version":"1.0.2",
+	"version":{"major":1, "minor":2, "patch":0},
 	"author":"ShioZakana、FAX (文本指导)",
-	"description":"加入了一个从旧时代漂泊而来的神秘势力，以及他们使用划时代能源驱动的舰船与泛用的奇特武器。\n\n\n需启用LazyLib, GraphicsLib, MagicLib",
-	"gameVersion":"0.9.1a",
+	"description":"加入了一个从旧时代漂泊而来的神秘势力，以及他们使用划时代能源驱动的舰船与泛用的奇特武器。\n\n\n需启用LazyLib, GraphicsLib, MagicLib\n本mod的下载途径目前仅有远行星号中文论坛(fossic.org)，于其他地方(包括但不限于整合包)获取的该mod而引发的问题请自行解决",
+	"gameVersion":"0.95a-RC15",
 	"dependencies":[
-		{"id":"lw_lazylib", "name":"LazyLib", "version":{"major":2, "minor":4e}},
-		{"id":"shaderLib", "name":"GraphicsLib", "version":{"major":1, "minor":2, "patch":4}},
-		{"id":"MagicLib", "name":"MagicLib", "version":{"major":0, "minor":29}},
+		{"id":"lw_lazylib", "name":"LazyLib", "version":{"major":2, "minor":6}},
+		{"id":"shaderLib", "name":"GraphicsLib", "version":{"major":1, "minor":5, "patch":1}},
+		{"id":"MagicLib", "name":"MagicLib", "version":"0.34"}
 	],
 	"jars":["jars/ETCMod.jar"],
 	"modPlugin":"data.scripts.ETCModPlugin"
