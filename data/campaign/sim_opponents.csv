@@ -1,6 +1,6 @@
 variant id
 ETC_helium_Elite
-ETC_point_discharge_Standard
+ETC_xenon_Standard
 ETC_transition_Standard
 ETC_degenerate_Standard
 #==============================================
@@ -8,6 +8,7 @@ ETC_paradox_scholar_Standard
 ETC_potential_energy_Standard
 ETC_andras_Elite
 ETC_ionization_Standard
+ETC_fractionation_Standard
 #==============================================
 ETC_mechanical_energy_Standard
 ETC_leraje_Standard

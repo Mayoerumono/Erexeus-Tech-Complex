@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 2,
-    "fluxVents": 1,
+    "fluxCapacitors": 3,
+    "fluxVents": 2,
 	"goalVariant": true,
 	"permaMods": [],
     "hullId": "ETC_useful_work",

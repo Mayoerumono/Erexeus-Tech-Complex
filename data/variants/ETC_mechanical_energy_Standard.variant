@@ -1,6 +1,6 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 8,
     "fluxVents": 8,
     "goalVariant": true,
     "hullId": "ETC_mechanical_energy",
@@ -21,8 +21,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "railgun",
-                "WS0004": "railgun"
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler"
             }
         },
         {

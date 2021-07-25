@@ -8,8 +8,8 @@
 	"onHitEffect":"data.weapons.scripts.ETC_halomlp_onhiteffect",
 	"collisionRadius":10,
 	"collisionClass":"MISSILE_NO_FF",
-	"explosionColor":[100,240,255,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":75, # purely visual
+	"explosionColor":[100,240,255,255],
+	"explosionRadius":35, # purely visual
 	"engineSpec":{
 				  "turnAcc":300,
 				  "turnRate":200,
@@ -20,19 +20,19 @@
 				    #"style":"MISSILE_MIDLINE",
 				    "style":"CUSTOM",
 					"styleSpec":{
-						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"mode":"QUAD_STRIP",
 						"engineColor":[100,200,255,255],
 						"contrailDuration":2,
 						"contrailWidthMult":0.7,
-						"contrailWidthAddedFractionAtEnd":1.5,  # can be negative. makes trail spread out/narrow at the end
-						"contrailMinSeg":10, # min segment length, in pixels
+						"contrailWidthAddedFractionAtEnd":1.5, 
+						"contrailMinSeg":10,
 						"contrailMaxSpeedMult":0,
 						"contrailAngularVelocityMult":0.5f,
-						"contrailSpawnDistMult":0.5, # how far away from engine it starts
+						"contrailSpawnDistMult":0.5,
 						"contrailColor":[70,180,220,150],
 						"glowSizeMult":0.75,
 						"glowAlternateColor":[70,180,220,255],
-						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+						"type":"GLOW"
 					},
 				    "width":6.0,
 				    "length":30.0,

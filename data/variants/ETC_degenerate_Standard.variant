@@ -3,8 +3,8 @@
   "hullId": "ETC_degenerate",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 2,
-  "fluxVents": 1,
+  "fluxCapacitors": 3,
+  "fluxVents": 4,
   "quality": 0,
   "permaMods": [],
   "hullMods": [

@@ -15,9 +15,10 @@
 					"WS0004": "ETC_mg5op_fighter"
 		 		   },
 		},
-		{"mode":"ALTERNATING",
+		{"autofire": true,
+		 "mode":"ALTERNATING",
 		 "weapons":{
-		 			"WS0005": "ETC_l2pdl"
+		 			"WS0005": "ETC_l1pdl"
 		 		   },
 		},
 		{"mode":"LINKED",

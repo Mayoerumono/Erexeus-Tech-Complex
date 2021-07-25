@@ -1,12 +1,12 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 9,
-    "fluxVents": 6,
+    "fluxCapacitors": 11,
+    "fluxVents": 10,
 	"goalVariant": true,
-    "hullId": "ETC_point_discharge",
+    "hullId": "ETC_xenon",
 	"hullMods": ["insulatedengine"],
     "permaMods": [],
-    "variantId": "ETC_point_discharge_Strike",
+    "variantId": "ETC_xenon_Strike",
     "weaponGroups": [
         {
             "autofire": false,
@@ -25,8 +25,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0027": "ETC_prailgun",
-                "WS0028": "ETC_prailgun",
+                "WS0027": "ETC_magneticshock",
+                "WS0028": "ETC_magneticshock",
                 "WS0031": "ETC_prailgun",
                 "WS0032": "ETC_prailgun"
             }

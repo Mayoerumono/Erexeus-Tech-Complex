@@ -1,6 +1,6 @@
 {
 	"defaultChannels":[
-		"ETC_public",
+		"ETC_public"
 	],
 	"ETC_public":{
 		"name":"技术综合体公共频道",
@@ -10,7 +10,7 @@
 		"sound":"ui_channel_news",
 		"faction":"ETC",
 		"type":"新闻消息",
-		"shortType":"新闻",
+		"shortType":"新闻"
 	},
 	"ETC_internal":{
 		"name":"技术综合体军方频道",
@@ -20,6 +20,6 @@
 		"sound":"ui_channel_comm_secure",
 		"faction":"ETC",
 		"type":"军方消息",
-		"shortType":"军方",
-	},
+		"shortType":"军方"
+	}
 }

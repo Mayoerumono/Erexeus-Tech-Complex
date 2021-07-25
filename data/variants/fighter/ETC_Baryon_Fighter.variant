@@ -13,10 +13,5 @@
 		 			"WS0001":"ETC_tidetorpedo_S",
 		 		   },
 		},
-		{"mode":"LINKED",
-		 "weapons":{
-		 			"WS0002":"ETC_tidetorpedo_S",
-		 		   },
-		},
   ]
 }

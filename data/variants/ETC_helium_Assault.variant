@@ -1,37 +1,32 @@
 {
-    "displayName": "Support",
-    "fluxCapacitors": 32,
-    "fluxVents": 31,
+    "displayName": "Assault",
+    "fluxCapacitors": 25,
+    "fluxVents": 25,
     "goalVariant": true,
     "hullId": "ETC_helium",
     "hullMods": [
         "insulatedengine",
-        "ETC_matrix_field_shield",
-        "fluxbreakers",
-        "extendedshieldemitter"
+        "hardenedshieldemitter",
+        "heavyarmor"
     ],
-    "quality": 0,
-    "variantId": "ETC_helium_Support",
+    "permaMods": [],
+    "variantId": "ETC_helium_Assault",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {"WS0023": "ETC_purifier"}
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0036": "tachyonlance"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
             "weapons": {
-                "WS0003": "heavyneedler",
-                "WS0024": "heavyneedler",
-                "WS0026": "taclaser",
-                "WS0028": "taclaser",
-                "WS0032": "ionbeam"
+                "WS0032": "phasebeam",
+                "WS0033": "phasebeam",
+                "WS0034": "ETC_particle_reconstructor",
+                "WS0035": "ETC_particle_reconstructor",
+                "WS0036": "ETC_buildermk4",
+                "WS0037": "ETC_buildermk4"
             }
         },
         {
@@ -58,14 +53,12 @@
             "weapons": {
                 "WS0001": "ETC_l2pdl",
                 "WS0002": "ETC_l2pdl",
-                "WS0004": "ETC_magneticshock",
-                "WS0027": "ETC_l1pdl",
-                "WS0029": "ETC_l1pdl",
+                "WS0028": "ETC_l2pdl",
+                "WS0029": "ETC_l2pdl",
                 "WS0030": "ETC_mg5op",
                 "WS0031": "ETC_mg5op",
-                "WS0033": "ETC_magneticshock",
-                "WS0034": "ETC_magneticshock",
-                "WS0037": "guardian"
+                "WS0003": "heavyac",
+                "WS0004": "heavyac"
             }
         }
     ],

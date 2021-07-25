@@ -4,7 +4,7 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 6,
+  "fluxVents": 7,
   "permaMods": [],
   "hullMods": [
     "insulatedengine"

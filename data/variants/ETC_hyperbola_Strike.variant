@@ -1,6 +1,6 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 4,
+    "fluxCapacitors": 6,
     "fluxVents": 4,
 	"goalVariant": true,
 	"permaMods": [],

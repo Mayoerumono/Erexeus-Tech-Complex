@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 2,
-    "fluxVents": 1,
+    "fluxVents": 3,
 	"goalVariant": true,
 	"permaMods": [],
     "hullId": "ETC_detector",

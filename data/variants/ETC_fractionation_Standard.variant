@@ -1,0 +1,41 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "permaMods": [],
+  "hullId": "ETC_fractionation",
+  "hullMods": [
+    "insulatedengine",
+    "surveying_equipment"
+  ],
+  "quality": 0.5,
+  "variantId": "ETC_fractionation_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ETC_mg5op",
+        "WS0006": "ETC_mg5op"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ETC_l1pdl",
+        "WS0004": "ETC_l1pdl"
+      }
+    },
+    {
+     "autofire": true,
+     "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ETC_magneticshock",
+        "WS0002": "ETC_magneticshock"
+      }
+    }
+  ],
+  "wings": []
+}

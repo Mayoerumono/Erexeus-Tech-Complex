@@ -1,18 +1,18 @@
 {
-    "displayName": "点防无人机",
+    "displayName": "工程无人机",
     "fluxCapacitors": 0,
     "fluxVents": 0,
 	"goalVariant": true,
 	"permaMods": [],
-    "hullId": "ETC_needle",
+    "hullId": "ETC_FractionationDrone",
     "hullMods": [],
     "quality": 0,
-    "variantId": "ETC_needle_Fighter",
+    "variantId": "ETC_FractionationDrone_Fighter",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "ETC_cutterbeam"},
+            "weapons": {"WS0001": "ETC_lasercutting"},
         },
     ]
 }

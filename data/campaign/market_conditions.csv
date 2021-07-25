@@ -1,3 +1,3 @@
 name,id,planetary,decivRemove,script,desc,icon,order
-星环世界,ETC_ringworld,,,data.campaign.scripts.ETC_ringworld,"$market是一处星环的一个居住段，在结构的未知部位产生的局部重力场之下，环段内部有着一层适合大多数碳基生命生活的氮氧大气层，一大片由其建造者精心设计的陆地与海洋，以及丰富的生物资源。
+星环世界,ETC_ringworld,TRUE,,data.campaign.scripts.ETC_ringworld,"$market是一处星环的一个居住段，在结构的未知部位产生的局部重力场之下，环段内部有着一层适合大多数碳基生命生活的氮氧大气层，一大片由其建造者精心铺设的陆地与海洋，以及丰富的生物资源。
 即使距人们已经发现这种巨大的人造结构已经过去很久了，但到了今天依然有大量游客或者是移民者陆陆续续地来到 $market观摩这一奇观或者永久定居在这。",graphics/icons/markets/ETC_ringworld.png,4242

@@ -26,9 +26,9 @@
 		
 		"aggression":2,
 		
-		"combatFreighterProbability":0.2,     				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0.1,  				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":0.1,# as part of normal combat lineup, when marked as priority ship
+		"combatFreighterProbability":0.2,
+		"combatFreighterCombatUseFraction":0.1,
+		"combatFreighterCombatUseFractionWhenPriority":0.1,
 		"autofitRandomizeProbability":0.1,
 
 		"commanderSkillsShuffleProbability":0,
@@ -36,61 +36,92 @@
 			"electronic_warfare",
 			"fighter_doctrine",
 			"officer_management",
-			"coordinated_maneuvers",
-		],
+			"coordinated_maneuvers"
+		]
 	},
 	"variantOverrides":{
 	},
 	"description":"No description yet.",
 	"hullFrequency":{
 		"tags":{
-			"ETC_bp":10,
+			"ETC_bp":10
 		},
 		"hulls":{
 			"ETC_detector":3,
 			"ETC_useful_work":6,
 			"ETC_kinetic_energy_s":5,
-			"ETC_kinetic_energy":8,
+			"ETC_kinetic_energy":10,
 			"ETC_ground_state":5,
-			"ETC_hyperbola":7,
+			"ETC_hyperbola":10,
 			"ETC_shax":5,
 			"ETC_leraje":6,
-			"ETC_mechanical_energy":8,
-			"ETC_freighter_1":8,
-			"ETC_tanker_1":8,
-			"ETC_ionization":7,
+			"ETC_mechanical_energy":10,
+			"ETC_freighter_1":10,
+			"ETC_tanker_1":10,
+			"ETC_ionization":10,
 			"ETC_potential_energy":3,
 			"ETC_paradox_scholar":5,
 			"ETC_andras":1,
-			"ETC_degenerate":7,
-			"ETC_transition":7,
-			"ETC_point_discharge":5,
-			"ETC_helium":2,
-		},
+			"ETC_fractionation":5,
+			"ETC_degenerate":10,
+			"ETC_transition":10,
+			"ETC_xenon":5,
+			"ETC_helium":2
+		}
 	},
 	"shipsWhenImporting":{
-		"tags":["midline_bp", "hightech_bp", "ETC_bp"],
+		"tags":["base_bp"],
 		"hulls":[
-			"paragon",
-		],
+			"hermes",
+			"mercury",
+			"dram",
+			"kite",
+			"buffalo",
+			"gemini",
+			"mule",
+			"starliner",
+			"mudskipper",
+			"venture",
+			"phaeton",
+			"atlas",
+			"prometheus",
+		]
 	},
 	"knownShips":{
 		"tags":["ETC_bp"],
 		"hulls":[
-			"ETC_helium",
-			"ETC_point_discharge",
-			"ETC_transition",
-			"ETC_degenerate",
-			"ETC_paradox_scholar",
-			"ETC_potential_energy",
-			"ETC_ionization",
-			"ETC_tanker_1",
+			"wolf",
+			"brawler",
+			"shade",
+			"omen",
+			"hermes",
+			"mercury",
+			"dram",
+			"ox",
+			"shepherd",
+			"kite",
+			"mudskipper",
+			"wayfarer",
+			"hammerhead",
+			"buffalo",
+			"gemini",
+			"omen",
+			"mule",
+			"phaeton",
+			"crig",
+			"nebula",
+			"venture",
+			"starliner",
+			"atlas",
+			"prometheus",
+			"kite_original",
 			"ETC_mechanical_energy",
-			"ETC_freighter_1",
-			"ETC_hyperbola",
 			"ETC_kinetic_energy",
-			"ETC_kinetic_energy_s",
-		],
+			"ETC_hyperbola",
+			"ETC_ionization",
+			"ETC_potential_energy",
+			"ETC_transition"
+		]
 	},
 	"priorityShips":{
 		"tags":["ETC_bp"],
@@ -100,41 +131,48 @@
 			"ETC_hyperbola",
 			"ETC_ionization",
 			"ETC_potential_energy",
-			"ETC_transition",
-		],
+			"ETC_transition"
+		]
 	},
 	"knownFighters":{
-		"tags":["midline_bp", "hightech_bp", "ETC_bp"],
+		"tags":["base_bp", "midline_bp", "hightech_bp", "ETC_bp"],
 		"fighters":[
 			"thunder_wing",
 			"trident_wing",
 			"longbow_wing",
-		],
+			"ETC_Atom_wing",
+			"ETC_Baryon_wing",
+			"ETC_Electron_wing",
+			"ETC_needle_wing",
+			"ETC_electrostatic_wing"
+		]
 	},
 	"priorityFighters":{
 		"tags":[],
 		"fighters":[
-			"ETC_Atom",
-			"ETC_Electron",
-			"ETC_Baryon",
-		],
+			"ETC_Atom_wing",
+			"ETC_Baryon_wing",
+			"ETC_Electron_wing",
+			"ETC_electrostatic_wing"
+		]
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "midline_bp", "missile_bp", "hightech_bp", "ETC_bp"],
+		"tags":["base_bp", "lowtech_bp", "missile_bp", "hightech_bp", "ETC_bp"],
 		"weapons":[
 			"ETC_crystal1",
 			"ETC_prailgun",
 			"ETC_lightplasmagun",
 			"ETC_heavy_mining_laser",
 			"ETC_particle_reconstructor",
+			"ETC_magneticshock",
 			"ETC_halom_S",
 			"ETC_halom_M",
 			"ETC_halom_L",
 			"ETC_tidetorpedo_S",
 			"ETC_thunderstormsrm_S",
 			"ETC_tidetorpedo_M",
-			"ETC_mg5op",
-		],
+			"ETC_mg5op"
+		]
 	},
 	"priorityWeapons":{
 		"tags":["ETC_bp"],
@@ -148,6 +186,7 @@
 			"ETC_heavy_mining_laser",
 			"ETC_lightplasmagun",
 			"ETC_particle_reconstructor",
+			"ETC_magneticshock",
 			"ETC_buildermk4",
 			"ETC_clusterbeam",
 			"ETC_halom_S",
@@ -159,8 +198,8 @@
 			"ETC_tidetorpedo_M",
 			"ETC_tidetorpedo_L",
 			"ETC_mg5op",
-			"ETC_heavymg13op",
-		],
+			"ETC_heavymg13op"
+		]
 	},
 	"knownHullMods":{
 		"tags":["base_bp"],
@@ -173,6 +212,9 @@
 			"dedicated_targeting_core",
 			"eccm",
 			"missleracks",
+			"blast_doors",
+			"autorepair",
+			"nav_relay",
 			"extendedshieldemitter",
 			"fluxcoil",
 			"fluxdistributor",
@@ -182,6 +224,9 @@
 			"hardened_subsystems",
 			"insulatedengine",
 			"pointdefenseai",
+			"reinforcedhull",
+			"safetyoverrides",
+			"unstable_injector",
 			"targetingunit",
 			"adaptiveshields",
 			"fluxbreakers",
@@ -190,23 +235,25 @@
 			"recovery_shuttles",
 			"solar_shielding",
 			"ecm",
-			"ETC_matrix_field_shield",
-		],
+			"militarized_subsystems",
+			"militarized_subsystems",
+			"ETC_matrix_field_shield"
+		]
 	},
 	"shipNameSources":{
 		"GREEK":1,
 		"ErexeusR":2,
 		"JAPANESE":1,
 		"SPACE":3,
-		"GENERAL":1,
+		"GENERAL":1
 	},
 	"names":{
 		"future":1,
 		"world":1,
-		"myth":1,
+		"myth":1
 	},
 	"illegalCommodities":[
-		"drugs",
+		"drugs"
 	],
 	"music":{
 		"theme":"ETC_faction_market",
@@ -215,7 +262,7 @@
 		"market_friendly":"ETC_faction_market",
 		"encounter_neutral":"music_tritach_encounter_neutral",
 		"encounter_hostile":"music_tritach_encounter_hostile",
-		"encounter_friendly":"music_tritach_encounter_friendly",
+		"encounter_friendly":"music_tritach_encounter_friendly"
 	},	
 	"internalComms":"ETC_internal",
 	"portraits":{
@@ -244,7 +291,7 @@
 			"graphics/portraits/portrait20.png",
 			"graphics/portraits/ETC_ai01.png",
 			"graphics/portraits/ETC_ai2.png",
-			"graphics/portraits/ETC_ai3.png",
+			"graphics/portraits/ETC_ai3.png"
 		],
 		"standard_female":[
 			"graphics/portraits/portrait_corporate02.png",
@@ -259,8 +306,27 @@
 			"graphics/portraits/portrait_league00.png",
 			"graphics/portraits/ETC_ai01.png",
 			"graphics/portraits/ETC_ai2.png",
-			"graphics/portraits/ETC_ai3.png",
-		],
+			"graphics/portraits/ETC_ai3.png"
+		]
+	},
+	"voices":{
+		"LOW":{
+			"soldier":3,
+			"business":10,
+			"spacer":5
+		},
+		"MEDIUM":{
+			"soldier":7,
+			"scientist":3,
+			"aristo":2,
+			"spacer":10,
+			"official":3
+		},
+		"HIGH":{
+			"official":6,
+			"soldier":3,
+			"scientist":10
+		}
 	},
 	"ranks":{
 		"posts":{
@@ -280,8 +346,8 @@
 			"gangster":{"name":"流氓"},
 			"fence":{"name":"外勤特工"},
 			
-			"investigator":{"name":"特遣队队员"},
-		},
+			"investigator":{"name":"特遣队队员"}
+		}
 	},
 	"fleetTypeNames":{
 		"trade":"大型商队",
@@ -299,7 +365,7 @@
 		"mercBountyHunter":"赏金猎人",
 		"mercPrivateer":"私人武装",
 		"mercPatrol":"海关",
-		"mercArmada":"佣兵舰队",
+		"mercArmada":"佣兵舰队"
 	},
 	"custom":{
 		"exemptFromFoodShortages":true,
@@ -309,11 +375,12 @@
 		"buysAICores":false,
 		"buysSurveyData":true,
 		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
 		"punitiveExpeditionData":{
 			"vsCompetitors":true,
 			"vsFreePort":false,
 			"canBombard":true,
-			"territorial":true,
-		},
-	},
-},
+			"territorial":true
+		}
+	}
+}

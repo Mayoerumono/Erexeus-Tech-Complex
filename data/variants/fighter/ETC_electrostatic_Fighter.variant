@@ -1,6 +1,6 @@
 {
-  "variantId": "ETC_HCU00_Fighter",
-  "hullId": "ETC_HCU00",
+  "variantId": "ETC_electrostatic_Fighter",
+  "hullId": "ETC_electrostatic",
   "displayName": "突击型",
   "goalVariant": true,
   "fluxCapacitors": 0,
@@ -13,14 +13,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "ETC_HCU00_Rhand"
+        "WS0005": "ETC_electrostatic_Rhand"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "ETC_HCU00_microvulcan"
+        "WS0001": "ETC_electrostatic_microvulcan"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
     "displayName": "Elite",
     "fluxCapacitors": 33,
-    "fluxVents": 32,
+    "fluxVents": 33,
     "goalVariant": true,
     "hullId": "ETC_helium",
     "hullMods": [

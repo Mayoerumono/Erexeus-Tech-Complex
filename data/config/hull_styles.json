@@ -1,28 +1,27 @@
 {
 	"ETC_TECH":{
-		"hyperspaceJitterColor":[80,210,210,200],
+		"hyperspaceJitterColor":[90,200,240,200],
 		"baseCampaignExplosionColor":[100,165,255,255],
 		"baseCombatExplosionColor":[100,165,255,255],
-		"fighterRepairFlickerColor":[225,225,255,255],
-		"weaponDisabledExplosionColor":[100,165,255,255],
+		"fighterRepairFlickerColor":[200,230,255,255],
+		"weaponDisabledExplosionColor":[100,190,255,255],
 		"shieldRingColor":[215,255,255,175],
-		"shieldInnerColor":[0,220,255,150],
+		"shieldInnerColor":[50,200,255,150],
 		"fluxVentCoreColor":[210,255,255,255],
-		"fluxVentFringeColor":[0,225,225,240],
-		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
-		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
-		"empLoopSet":"emp_loop",						# id of entry in sounds.json
-		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
-		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
-		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
-		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
-		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
-		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"fluxVentFringeColor":[0,180,225,240],
+		"engineLoopSet":"ETC_engine_loop",
+		"engineAccelerateSet":"ETC_engine_accelerate",
+		"empLoopSet":"emp_loop",
+		"fluxLoopSet":"flux_loop",
+		"ventFluxSet":"ETC_vent_flux",
+		"shieldBurnoutSet":"shield_burnout",
+		"shieldLowerSet":"shield_lower",
+		"shieldRaiseSet":"shield_raise",
+		"explosionShipSet":"explosion_ship",
 		"damageDecalSheet":"graphics/damage/ETC_damage_decal_base.png",
 		"damageDecalGlowSheet":"graphics/damage/ETC_damage_decal_glow.png",
 		
-		#"colorShiftCovers":true,
-		"coversColorShiftAmount":0,  # 0 to 1
+		"coversColorShiftAmount":0,
 		"coversMatchShipBrightness":true,
 		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_ETC_small.png",
 		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_ETC_small.png",
@@ -33,7 +32,7 @@
 		
 		"dHullOverlayLight":"graphics/damage/ETC_dmod_overlay_light.png",
 		"dHullOverlayMedium":"graphics/damage/ETC_dmod_overlay_medium.png",
-		"dHullOverlayHeavy":"graphics/damage/ETC_dmod_overlay_heavy.png",
+		"dHullOverlayHeavy":"graphics/damage/ETC_dmod_overlay_heavy.png"
 	},
 	"ETC_TECH2":{
 		"hyperspaceJitterColor":[255,190,100,200],
@@ -45,20 +44,19 @@
 		"shieldInnerColor":[255,160,0,150],
 		"fluxVentCoreColor":[255,240,210,255],
 		"fluxVentFringeColor":[255,150,50,240],
-		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
-		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
-		"empLoopSet":"emp_loop",						# id of entry in sounds.json
-		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
-		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
-		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
-		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
-		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
-		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"engineLoopSet":"ETC_engine_loop",
+		"engineAccelerateSet":"ETC_engine_accelerate",
+		"empLoopSet":"emp_loop",
+		"fluxLoopSet":"flux_loop",
+		"ventFluxSet":"ETC_vent_flux",
+		"shieldBurnoutSet":"shield_burnout",
+		"shieldLowerSet":"shield_lower",
+		"shieldRaiseSet":"shield_raise",
+		"explosionShipSet":"explosion_ship",
 		"damageDecalSheet":"graphics/damage/ETC_damage_decal_base.png",
 		"damageDecalGlowSheet":"graphics/damage/ETC_damage_decal_glow.png",
 		
-		#"colorShiftCovers":true,
-		"coversColorShiftAmount":0,  # 0 to 1
+		"coversColorShiftAmount":0,
 		"coversMatchShipBrightness":true,
 		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_ETC_small.png",
 		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_ETC_small.png",
@@ -69,6 +67,6 @@
 		
 		"dHullOverlayLight":"graphics/damage/ETC_dmod_overlay_light.png",
 		"dHullOverlayMedium":"graphics/damage/ETC_dmod_overlay_medium.png",
-		"dHullOverlayHeavy":"graphics/damage/ETC_dmod_overlay_heavy.png",
-	},
+		"dHullOverlayHeavy":"graphics/damage/ETC_dmod_overlay_heavy.png"
+	}
 }

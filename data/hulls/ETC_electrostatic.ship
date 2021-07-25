@@ -1,8 +1,8 @@
 {
-  "hullName": "ETC_HCU00",
-  "hullId": "ETC_HCU00",
+  "hullName": "ETC_electrostatic",
+  "hullId": "ETC_electrostatic",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/ETC_HCU00/ETC_HCU00_mask.png",
+  "spriteName": "graphics/ships/ETC_electrostatic/ETC_electrostatic_mask.png",
   "style": "ETC_TECH",
   "height": 38,
   "width": 42,
@@ -15,12 +15,12 @@
     "ETC_erexeus_system_f"
   ],
   "builtInWeapons": {
-    "WS0001": "ETC_HCU00_microvulcan",
-    "WS0002": "ETC_HCU00_Rshoulder",
-    "WS0003": "ETC_HCU00_Lshoulder",
-    "WS0004": "ETC_HCU00_Lhand",
-    "WS0005": "ETC_HCU00_Rhand",
-    "WS0006": "ETC_HCU00_body"
+    "WS0001": "ETC_electrostatic_microvulcan",
+    "WS0002": "ETC_electrostatic_Rshoulder",
+    "WS0003": "ETC_electrostatic_Lshoulder",
+    "WS0004": "ETC_electrostatic_Lhand",
+    "WS0005": "ETC_electrostatic_Rhand",
+    "WS0006": "ETC_electrostatic_body"
   },
   "weaponSlots": [
     {

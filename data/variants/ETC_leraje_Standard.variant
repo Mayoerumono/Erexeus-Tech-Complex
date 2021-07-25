@@ -3,7 +3,7 @@
   "hullId": "ETC_leraje",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 9,
+  "fluxCapacitors": 10,
   "fluxVents": 7,
   "quality": 1,
   "permaMods": [],

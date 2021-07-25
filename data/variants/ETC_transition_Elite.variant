@@ -3,7 +3,7 @@
   "hullId": "ETC_transition",
   "displayName": "Elite",
   "goalVariant": true,
-  "fluxCapacitors": 15,
+  "fluxCapacitors": 20,
   "fluxVents": 20,
   "quality": 0,
   "permaMods": [],

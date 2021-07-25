@@ -3,8 +3,8 @@
   "hullId": "ETC_transition",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 11,
+  "fluxCapacitors": 16,
+  "fluxVents": 13,
   "quality": 0,
   "permaMods": [],
   "hullMods": [

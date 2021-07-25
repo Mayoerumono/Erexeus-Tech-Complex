@@ -3,7 +3,7 @@
   "hullId": "ETC_ionization",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 12,
   "fluxVents": 6,
   "permaMods": [],
   "hullMods": [

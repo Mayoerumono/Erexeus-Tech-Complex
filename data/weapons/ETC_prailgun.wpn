@@ -23,5 +23,5 @@
 						"particleCount":46,
 						"particleColor":[100,240,240,200]},
 	"projectileSpecId":"ETC_prailgun_shot",  # projectile that will be fired
-	"fireSoundTwo":"thermal_pulse_cannon_fire",	
+	"fireSoundTwo":"ETC_prailgun_fire",	
 }

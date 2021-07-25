@@ -1,15 +1,15 @@
 {
     "displayName": "Support",
-    "fluxCapacitors": 17,
-    "fluxVents": 14,
+    "fluxCapacitors": 19,
+    "fluxVents": 16,
 	"goalVariant": true,
-    "hullId": "ETC_point_discharge",
+    "hullId": "ETC_xenon",
 	"hullMods": [
         "insulatedengine",
         "expanded_deck_crew"
     ],
     "permaMods": [],
-    "variantId": "ETC_point_discharge_Support",
+    "variantId": "ETC_xenon_Support",
     "weaponGroups": [
         {
             "autofire": false,
@@ -23,8 +23,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0027": "ETC_prailgun",
-                "WS0028": "ETC_prailgun",
+                "WS0027": "ETC_magneticshock",
+                "WS0028": "ETC_magneticshock",
                 "WS0031": "ionbeam",
                 "WS0032": "ionbeam"
             }

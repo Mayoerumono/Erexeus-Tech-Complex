@@ -12,7 +12,8 @@
   "shieldRadius": 210,
   "viewOffset": 0,
   "builtInMods": [
-    "ETC_erexeus_system"
+    "ETC_erexeus_system",
+    "civgrade"
   ],
   "builtInWings": [
     "ETC_needle_wing"

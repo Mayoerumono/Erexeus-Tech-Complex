@@ -1,11 +1,22 @@
 {
 	"ETC_isShipCoreFlashOn":true,
 	"ETC_isShipCoreParticleOn":true,
+	"ETC_shipCoreFlashAlphaMult":0.8,
+	"ETC_shipCoreFlashSizeMult":1.0,
+	"ETC_ShipCoreParticleSizeMult":1.0,
+	"ETC_ShipCoreParticleDurationMult":1.0,
+
 	"ETC_isShipEngineParticleOn":true,
 	"ETC_isShipEngineTrailOn":true,
+	"ETC_ShipEngineParticleSizeMult":1.0,
+	"ETC_ShipEngineParticleDurationMult":1.0,
 
 	"ETC_erexeus_system_defaultMainTooltipHide":false,
 	"ETC_erexeus_system_defaultTooltipHide":false,
+
+	# 注意！以下数值过小可能会引起性能下降
+	"ETC_ShipCoreParticleCDMult":1.0,
+	"ETC_ShipEngineParticleCDMult":1.0,
 
 
 
@@ -14,10 +25,10 @@
 
 	"graphics":{
 		"shield":{
-			"ETC_grid_shield":"graphics/fx/ETC_grid_shield.png",
+			"ETC_grid_shield":"graphics/fx/ETC_grid_shield.png"
 		},
 		"industry":{
-			"ETC_pshield_texture":"graphics/planets/ETC_planetary_shield.png",
+			"ETC_pshield_texture":"graphics/planets/ETC_planetary_shield.png"
 		},
 		"fx": {
 			"ETC_none":"graphics/weapons/ETC_none.png",
@@ -31,40 +42,45 @@
 			"ETC_shield_ring":"graphics/fx/shields256ringc.png",
 			"ETC_virtual_particle_core_golw_w":"graphics/fx/ETC_virtual_particle_core_golw_w.png",
 			"ETC_golwball":"graphics/fx/hit_glow.png",
+			"ETC_explosion2":"graphics/fx/explosion2.png",
 			"ETC_ship_vent_fringe":"graphics/fx/emp_arcs.png",
 			"ETC_smoothblock":"graphics/fx/ETC_smoothblock.png",
 			"ETC_explode_ring":"graphics/fx/ETC_explode_ring.png",
 			"ETC_explode_ring_vt":"graphics/fx/ETC_explode_ring_vt.png",
 			"ETC_buildermk4_beam_fringe":"graphics/fx/ETC_beamfringe01.png",
+			"ETC_enginelight":"graphics/fx/ETC_enginelight.png",
+			"ETC_shipCoreFlash00":"graphics/fx/ETC_shipCoreFlash00.png",
+			"ETC_shipCoreFlash01":"graphics/fx/ETC_shipCoreFlash01.png",
+			"ETC_shipCoreFlash02":"graphics/fx/ETC_shipCoreFlash02.png"
 		},
 		"blueprint_packages": {
 			"ETC_blueprint_package_wp": "graphics/icons/cargo/ETC_blueprint_package_n.png",
-			"ETC_blueprint_package_ship": "graphics/icons/cargo/ETC_blueprint_package_n.png",
+			"ETC_blueprint_package_ship": "graphics/icons/cargo/ETC_blueprint_package_n.png"
 		},
 		"illustrations": {
 			"eventide": "graphics/illustrations/eventide.jpg",
 			"cargo_pod_drift": "graphics/illustrations/cargo_pod_drift.jpg",
-			"ETC_ringworld": "graphics/illustrations/ETC_ringworld.png",
+			"ETC_ringworld": "graphics/illustrations/ETC_ringworld.png"
 		},
 		"characters": {
-			"tomarenai": "graphics/portraits/TOMARENAI.png",
+			"tomarenai": "graphics/portraits/TOMARENAI.png"
 		},
 		"campaignEntities":{
-			"ETC_hypergate_glow":"graphics/stations/ETC_hypergate_glow.png",
+			"ETC_hypergate_glow":"graphics/stations/ETC_hypergate_glow.png"
 		},
 		"hullmods":{
 			"ETC_erexeus_system_buff":"graphics/icons/hullsys/ETC_erexeus_system_buff.png",
-			"ETC_none":"graphics/weapons/ETC_none.png",
-		},
+			"ETC_none":"graphics/weapons/ETC_none.png"
+		}
 	},
 	"designTypeColors":{
 		"厄雷修斯技术综合体":[190,240,255,255],
 		"SU重工":[190,240,255,255],
-		"热核基金会":[255,187,91,255],
+		"热核基金会":[255,187,91,255]
     },
 	"hullmods":{
 	},
 	"plugins": {
-		"ETC_CombatEveryFram":"data.scripts.plugins.ETC_CombatEveryFram",
-	},
+		"ETC_CombatEveryFram":"data.scripts.plugins.ETC_CombatEveryFram"
+	}
 }

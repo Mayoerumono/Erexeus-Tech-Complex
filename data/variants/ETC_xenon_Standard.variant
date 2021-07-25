@@ -1,13 +1,13 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 10,
-    "fluxVents": 8,
+    "fluxVents": 10,
 	"goalVariant": true,
-    "hullId": "ETC_point_discharge",
+    "hullId": "ETC_xenon",
 	"hullMods": ["insulatedengine"],
     "permaMods": [],
     "quality": 0,
-    "variantId": "ETC_point_discharge_Standard",
+    "variantId": "ETC_xenon_Standard",
     "weaponGroups": [
         {
             "autofire": false,
@@ -32,8 +32,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0027": "ETC_prailgun",
-                "WS0028": "ETC_prailgun",
+                "WS0027": "ETC_magneticshock",
+                "WS0028": "ETC_magneticshock",
                 "WS0031": "ETC_prailgun",
                 "WS0032": "ETC_prailgun"
             }

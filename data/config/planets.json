@@ -1,6 +1,6 @@
 {
 	"ETC_moon2":{
-		"name":"迷宫行星",
+		"name":"钢铁迷宫",
 		"tilt":-23,
 		"pitch":5,
 		"rotation":2,
@@ -18,6 +18,6 @@
 		"useReverseLightForGlow":true,
 		"cloudTexture":"graphics/planets/clouds_banded01.png",
 		"cloudColor":[230,230,230,160],
-		"cloudRotation":4,
-	},
+		"cloudRotation":4
+	}
 }

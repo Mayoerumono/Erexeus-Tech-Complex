@@ -1,6 +1,8 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-ETC_Atom_wing,ETC_Atom_Fighter,"bomber2, support1, fighter4, fighter, high",3,,8,18,V,4000,400,300,3,FIGHTER,支援战斗机,18,15000,,,,,,,,,,,,,5001.2
-ETC_Baryon_wing,ETC_Baryon_Fighter,"bomber6, bomber, high",2,,9,25,BOX,3500,1500,100,2,BOMBER,鱼雷机,24,18000,,,,,,,,,,,,,5003.2
-ETC_Electron_wing,ETC_Electron_Fighter,"interceptor6, fighter3, intercepto, high, ETC_bp, ETC_bps",1,,7,15,CLAW,2000,1300,500,5,INTERCEPTOR,无人截击机,14,13000,,,,,,,,,,,,,5002.2
+ETC_Atom_wing,ETC_Atom_Fighter,"bomber2, support1, fighter4, fighter, high",1,,8,18,V,4000,400,300,3,FIGHTER,支援战斗机,18,15000,,,,,,,,,,,,,5001.2
+ETC_Baryon_wing,ETC_Baryon_Fighter,"bomber6, bomber, high",2,,9,25,BOX,3500,1500,-400,2,BOMBER,鱼雷机,24,18000,,,,,,,,,,,,,5003.2
+ETC_Electron_wing,ETC_Electron_Fighter,"interceptor6, fighter3, intercepto, high, ETC_bp, ETC_bps",1,,7,15,CLAW,2000,300,200,5,INTERCEPTOR,无人截击机,14,12000,,,,,,,,,,,,,5002.2
 ETC_needle_wing,ETC_needle_Fighter,"interceptor3, interceptor, high, ETC_bp, ETC_bps",1,,5,5,V,100,500,,6,INTERCEPTOR,无人机,7,8000,,,,,,,,,,,,,5004.2
-ETC_HCU00_wing,ETC_HCU00_Fighter,"fighter4, fighter, high",3,,8,16,V,4000,200,,2,FIGHTER,突击型机体,25,20000,,,,,,,,,,,,,5005.2
+ETC_electrostatic_wing,ETC_electrostatic_Fighter,"fighter4, fighter, high",2,,8,15,V,4000,600,-50,2,FIGHTER,突击型机体,25,20000,,,,,,,,,,,,,5005.2
+ETC_FractionationDrone_wing,ETC_FractionationDrone_Fighter,"no_drop, no_sell, high",0,,5,0,V,0,500,-50,3,FIGHTER,无人机,12,10000,,,,,,,,,,,,,5006.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

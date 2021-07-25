@@ -20,7 +20,7 @@
     "WS0002": "ETC_microannihilator",
     "WS0003": "ETC_mg5op_fighter",
     "WS0004": "ETC_mg5op_fighter",
-    "WS0005": "ETC_l2pdl"
+    "WS0005": "ETC_l1pdl"
   },
   "weaponSlots": [
     {
@@ -46,7 +46,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 30,
       "angle": 0,
       "locations": [0, 9]
     },
@@ -55,7 +55,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 30,
       "angle": -0,
       "locations": [0, -9]
     },
@@ -64,8 +64,8 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
+      "arc": 135,
+      "angle": 0,
       "locations": [13, -0]
     },
     {

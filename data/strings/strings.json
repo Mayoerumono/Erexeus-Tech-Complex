@@ -22,10 +22,9 @@
 		"ETC_ES_ntext11":"%s每个幅能寄存器改装提供{%s}，每个耗散通道改装提供{%s}",
 		"ETC_ES_ntext12":"-降低护盾受到的光束伤害{%s}",
 		"ETC_ES_ntext13":"-大幅度提高护盾展开速度",
-		"ETC_ES_ntext14":"-护盾开启时随机对附近小范围敌方目标造成{%s}点能量及EMP伤害，如目标同样拥有该护盾则大幅度减免",
-		"ETC_ES_ntext15":"扩展护盾/敏捷护盾/全角护盾发生器",
-		"ETC_ES_ntext16":"幅能调整",
-		"ETC_ES_ntext17":"护盾调整",
+		"ETC_ES_ntext14":"扩展护盾/敏捷护盾/全角护盾发生器",
+		"ETC_ES_ntext15":"幅能调整",
+		"ETC_ES_ntext16":"护盾调整",
 		"ETC_ES_ntext_l":"[长按-{%s}-以%s]",
 		"ETC_ES_ntext_s0":"折叠",
 		"ETC_ES_ntext_s1":"展开",
@@ -37,7 +36,7 @@
 		"ETC_ESbuff_text01":"缓存上限: ",
 		"ETC_ESbuff_text02":"耗散速度: ",
 		"ETC_ESbuff_text03":"-[耗散中]-",
-		"ETC_ES_textHide":"%s\n一种有异于英仙座星区内大多数舰船的设计。\n舰船使用了名为虚粒子核心的特种设备以取代常规的动力源，伴随着设备的运作还会产生出一些令人着迷的粒子。\n在传统金属装甲的基础上渗入了Si-EC合金，不仅大幅度改良了机械性能，还使得装甲在特定条件下展现出了各种和幅能有关的性质。\n并得益于某种特殊的工艺，电网在设计时便获得了压榨改造潜能般的优化。\n内置了一种由反应堆密闭场改造而来的被称作POCT屏障的护盾发生器，拥有较高耐性的同时也拥有一系列十分明显的缺点，但设备生产方面性价比远高于常见类型的护盾发生器。\n动力系统上则使用了比较罕见的聚变推进器，在一般的聚变反应中通过加入反物质来快速达到反应条件并提供更大的功率，不过也直线提升了流水线生产的工艺要求。",
+		"ETC_ES_textHide":"%s\n一种有异于英仙座星区内大多数舰船的设计。\n舰船使用了名为虚粒子核心的特种设备以取代常规的动力源，伴随着设备的运作还会产生出一些令人着迷的粒子。\n在传统金属装甲的基础上渗入了Si-EC合金，不仅大幅度改良了机械性能，还使得装甲在特定条件下展现出了各种和幅能有关的性质。\n并得益于某种特殊的工艺，电网在设计时便获得了压榨改造潜能般的优化。\n使用了一种由反应堆密闭场改造而来的被称作POCT屏障的护盾发生器，拥有较高耐性的同时也拥有数个明显的缺点，其中护盾表面满载的能量拥有一定危险性，但设备生产方面性价比远高于常见类型的护盾发生器。\n动力系统上则使用了比较罕见的聚变推进器，在一般的聚变反应中通过加入反物质来快速达到反应条件并提供更大的功率，不过也直线提升了流水线生产的工艺要求。",
 		"ETC_OPU_text01":"武器增压充能中：",
 		"ETC_OPU_text02":"武器增压充能完毕",
 		"ETC_OPU_text03":"武器增压剩余能量：",
@@ -50,17 +49,15 @@
 		"ETC_OPU_text10":"高级优化方案",
 		"ETC_OPU_text11":"通用优化方案",
 		"ETC_OPU_text12":"虚粒子系统",
-		"ETC_WUG_text00":"未激活效果",
-		"ETC_WUG_text01":"炮塔装甲",
 		"ETC_MTM_text00":"目标定位系统/专注型目标锁定核心",
 		"ETC_MFS_text00":"仅对被内置船体插件\"虚粒子系统\"调整过的护盾有效",
-		"ETC_MFS_text01":"该舰船没有护盾",
+		"ETC_MFS_text01":"该舰船没有护盾"
 	},
 	"industries":{
 		"ETC_industries_text00":"阿尔法级核心",
 		"ETC_industries_text01":"目前已被分配的 阿尔法级 AI 核心. ",
 		"ETC_industries_text02":"阿尔法级 AI 核心. ",
-		"ETC_industries_text03":"维护成本降低 %s. 需求减少 %s 单位. 地面防御增加 %s.",
+		"ETC_industries_text03":"维护成本降低 %s. 需求减少 %s 单位. 地面防御增加 %s."
 	},
 	"market_conditions":{
 		"ETC_market_conditions_text00":"殖民地规模",
@@ -69,7 +66,7 @@
 		"ETC_market_conditions_text03":"%s 人口增长率.",
 		"ETC_market_conditions_text04":"不会增加或减少 有机物 的产量 (采矿业)",
 		"ETC_market_conditions_text05":"%s 食品 的产量 (农业)",
-		"ETC_ringworldc_text00":"星环世界",
+		"ETC_ringworldc_text00":"星环世界"
 	},
 	"ship_systems":{
 		"ETC_destroy_mode_Stats_text00":"时间流速改变",
@@ -84,10 +81,10 @@
 		"ETC_cartographer_system_text00":"战机对战机和导弹的伤害",
 		"ETC_cartographer_system_text01":"战机机身受到的伤害",
 		"ETC_cartographer_system_text02":"战机机动性",
-		"ETC_cartographer_system_text03":"舰船与战机的探测范围",
+		"ETC_cartographer_system_text03":"舰船与战机的探测范围"
 	},
 	"campaign":{
-		"horizonVortexRingworldEntity_person_Post":"核心枢纽",
+		"horizonVortexRingworldEntity_person_Post":"核心枢纽"
 	},
 	"star_system":{
 		"ETC_s1_text00":"小行星带",
@@ -104,6 +101,6 @@
 
 		"ETC_s2_text00":"轨道钻探站",
 		"ETC_s2_text01":"重力井",
-		"ETC_s2_text02":"前哨",
-	},
+		"ETC_s2_text02":"前哨"
+	}
 }

@@ -1,0 +1,63 @@
+{
+  "hullName": "ETC_FractionationDrone",
+  "hullId": "ETC_FractionationDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/ETC_FractionationDrone_wing.png",
+  "style": "ETC_TECH",
+  "height": 40,
+  "width": 30,
+  "center": [15, 20],
+  "collisionRadius": 24,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ETC_erexeus_system_f"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ETC_lasercutting"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 7.5],
+      "length": 1,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 8,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-17.5, -7.5],
+      "length": 1,
+      "width": 8,
+      "angle": -150,
+      "contrailSize": 8,
+      "style": "ETC_TECH"
+    },
+    {
+      "location": [-19.5, -0],
+      "length": 1,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "ETC_TECH"
+    }
+  ],
+  "bounds": [
+    17, 10,
+    -15, 14,
+    -15, -14,
+    17, -10
+  ]
+}

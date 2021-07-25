@@ -1,7 +1,37 @@
-id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
 ETC_planetaryshield,POCT行星护盾,200,150,,3,,,"grounddefenses, structure",,graphics/icons/industry/ETC_planetary_shield.png,data.campaign.industry.ETC_planetaryshield,"一种巨型化的POCT屏障护盾，通过将屏障发生器合理摆布后可以在行星表面展开一层非常坚固的护盾，可以有效抵御各种外在的进攻。
 
-与传统的行星护盾类似，不过这种屏障护盾由在发生器之下的数个庞大的虚粒子核心持续供能，要想击穿这种护盾可能要付出很大的代价。",5001.256
+与传统的行星护盾类似，不过这种屏障护盾由在发生器之下的数个庞大的虚粒子核心持续供能，要想击穿这种护盾可能要付出很大的代价。",5001.256,EXTREME
 ETC_ringworlddefenses,星环防御网,5000,300,,5,,,"grounddefenses, starfortress, unraidable, structure",,graphics/icons/industry/heavy_batteries_orbital.png,data.campaign.industry.ETC_ringworlddefenses,"这段星环上排列着数个从最大的体积能与两艘英仙座星区内的攻势级战列舰相比的超巨型火炮，到不可计数的常规小型点防御武器，以及一个完全运作后理论上坚固到连星球杀手之类的武器都无法击穿的选择性护盾，这一系列壮观的防御设施被星环的建造者用来防御可能遇到的任何敌人。
 
-以目前情况来看，由于人们缺少关于这类巨大结构的知识，星环的防御系统仅有少数部分勉强能运作，所以，要让这一设施失效并非不可能，但仍然需要付出大量人力物力。",5002.256
+以目前情况来看，由于人们缺少关于这类巨大结构的知识，星环的防御系统仅有少数部分勉强能运作。
+要让这一设施失效并非不可能，但为此需要付出大量人力物力。",5002.256,EXTREME
+ETC_orbitalstation,轨道站 - 综合体,50,90,,3,,ETC_battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_hightech_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"为方便后续扩展升级而设计的框架级标准武装空间站，拥有基本水平的生活区与不俗的火力。
+
+它的存在将阻止任何轰炸行动的发生.",5003.256,
+ETC_battlestation,作战基地 - 综合体,100,120,,4,ETC_orbitalstation,ETC_starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_hightech_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"以前一级为基础扩建了许多部分，并增建了几处重火力与点防御平台，也对一些部分增加了装甲板以强化防御性能。
+
+它的存在将阻止任何轰炸行动的发生.",5004.256,
+ETC_starfortress,星际要塞 - 综合体,200,180,,5,ETC_battlestation,ETC_universalwatcher,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_hightech_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"对原有平台进行了大规模升级，并增建了几处综合火力平台。
+
+它的存在将阻止任何轰炸行动的发生.",5005.256,
+ETC_universalwatcher,寰宇监视者 - 综合体,350,250,,6,ETC_starfortress,,"station, starfortress, unraidable, structure","{
+radius:75,
+variant:station3_hightech_Standard,
+fleetName:Universal Watcher
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"体积更大，且武装到极致的空间站。这个搭载了大量超级组件的巨大结构，足以让其他星际要塞在自身的阴影之下黯然失色。
+
+它的存在将阻止任何轰炸行动的发生.",5006.256,
+,,,,,,,,,,,,,,

@@ -1,77 +1,119 @@
 {
 	"music": {
 		"ETC_faction_market":[
-			{"file": "ETC_faction_market.ogg", "source": "sounds/f/", "volume": 1.0, "randomStart": false},
-		],
+			{"file": "ETC_faction_market.ogg", "source": "sounds/f/", "volume": 1.25, "randomStart": false}
+		]
 	},
+	"ETC_engine_loop":{
+		"sounds":[
+			{"file":"sounds/hull/ETC_engine_loop_frigate.ogg","pitch":1,"volume":1},
+			{"file":"sounds/hull/ETC_engine_loop_destroyer.ogg","pitch":1,"volume":1},
+			{"file":"sounds/hull/ETC_engine_loop_cruiser.ogg","pitch":1,"volume":1},
+			{"file":"sounds/hull/ETC_engine_loop_capital.ogg","pitch":1,"volume":1}
+		],
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.3},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.5},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.65},
+		"CRUISER":{"sounds":[2], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[3], "pitch":1, "volume":0.9}
+	},
+	"ETC_engine_accelerate":{
+		"sounds":[
+			{"file":"sounds/hull/ETC_engine_boost_00.ogg","pitch":1,"volume":1},
+			{"file":"sounds/hull/ETC_engine_boost_01.ogg","pitch":1,"volume":1},
+			{"file":"sounds/hull/ETC_engine_boost_02.ogg","pitch":1,"volume":1}
+		],
+		"FIGHTER":{"sounds":[0,1,2], "pitch":1.1, "volume":0.3},
+		"FRIGATE":{"sounds":[0,1,2], "pitch":1.1, "volume":0.5},
+		"DESTROYER":{"sounds":[0,1,2], "pitch":1.05, "volume":0.65},
+		"CRUISER":{"sounds":[0,1,2], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0,1,2], "pitch":1, "volume":0.9}
+	},
+	"ETC_vent_flux":{
+		"sounds":[
+			{"file":"sounds/hull/ETC_flux_vent.ogg","pitch":1,"volume":1}
+		],
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.3},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.5},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.65},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":0.9}
+	},
+
 	"ETC_mg_launch":[
 		{"file":"sounds/w/ETC_mg_launch0.ogg","pitch":0.8,"volume":0.1},
 		{"file":"sounds/w/ETC_mg_launch1.ogg","pitch":0.8,"volume":0.1},
-		{"file":"sounds/w/ETC_mg_launch2.ogg","pitch":0.8,"volume":0.1},
+		{"file":"sounds/w/ETC_mg_launch2.ogg","pitch":0.8,"volume":0.1}
 	],
 	"ETC_mg13_launch":[
 		{"file":"sounds/w/ETC_mg_launch0.ogg","pitch":0.8,"volume":0.3},
 		{"file":"sounds/w/ETC_mg_launch1.ogg","pitch":0.8,"volume":0.3},
-		{"file":"sounds/w/ETC_mg_launch2.ogg","pitch":0.8,"volume":0.3},
+		{"file":"sounds/w/ETC_mg_launch2.ogg","pitch":0.8,"volume":0.3}
 	],
 	"ETC_lasergun_fire":[
 		{"file":"sounds/w/ETC_lasergun00.ogg","pitch":1.25,"volume":0.4},
 		{"file":"sounds/w/ETC_lasergun01.ogg","pitch":1.25,"volume":0.4},
-		{"file":"sounds/w/ETC_lasergun02.ogg","pitch":1.25,"volume":0.4},
+		{"file":"sounds/w/ETC_lasergun02.ogg","pitch":1.25,"volume":0.4}
 	],
 	"ETC_antigravitygun":[
-		{"file":"sounds/w/ETC_antigravitygun.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/w/ETC_antigravitygun.ogg","pitch":1,"volume":0.7}
 	],
 	"ETC_antigravityspear":[
-		{"file":"sounds/w/ETC_antigravityspear.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/w/ETC_antigravityspear.ogg","pitch":1,"volume":0.8}
 	],
 	"ETC_gammalaser_loop":
 	[
-		{"file":"sounds/sfx_wpn_energy/graviton_beam_loop.ogg","pitch":1,"volume":10.0},
+		{"file":"sounds/sfx_wpn_energy/graviton_beam_loop.ogg","pitch":1,"volume":10.0}
 	],
 	"ETC_crystal1":
 	[
-		{"file":"sounds/w/ETC_crystal1.ogg","pitch":2,"volume":0.2},
+		{"file":"sounds/w/ETC_crystal_small_00.ogg","pitch":1.0,"volume":0.6},
+		{"file":"sounds/w/ETC_crystal_small_01.ogg","pitch":1.0,"volume":0.6},
+		{"file":"sounds/w/ETC_crystal_small_02.ogg","pitch":1.0,"volume":0.6}
 	],
 	"ETC_crystal2":
 	[
-		{"file":"sounds/w/ETC_crystal2.ogg","pitch":1.25,"volume":0.1},
+		{"file":"sounds/w/ETC_crystal2.ogg","pitch":1.25,"volume":0.1}
 	],
 	"ETC_crystal3":
 	[
-		{"file":"sounds/w/ETC_crystal2.ogg","pitch":1.1,"volume":0.15},
+		{"file":"sounds/w/ETC_crystal2.ogg","pitch":1.1,"volume":0.15}
 	],
 	"ETC_crystalspear":
 	[
-		{"file":"sounds/w/ETC_crystalspear.ogg","pitch":1.1,"volume":0.17},
+		{"file":"sounds/w/ETC_crystalspear.ogg","pitch":1.1,"volume":0.17}
 	],
 	"ETC_crystalspearov":
 	[
-		{"file":"sounds/sfx_wpn_energy/tachyon_lance_fire_01.ogg","pitch":1.5,"volume":20.0},
+		{"file":"sounds/sfx_wpn_energy/tachyon_lance_fire_01.ogg","pitch":1.5,"volume":20.0}
 	],
 	"ETC_particle_reconstructor":
 	[
-		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.6,"volume":0.4},
+		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.6,"volume":0.4}
 	],
 	"ETC_buildermk4":
 	[
-		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.4,"volume":0.4},
+		{"file":"sounds/w/ETC_particle_reconstructor.ogg","pitch":0.4,"volume":0.4}
 	],
 	"ETC_space_inverter_in":
 	[
-		{"file":"sounds/s/ETC_space_inverter_in.ogg","pitch":0.8,"volume":2.5},
+		{"file":"sounds/s/ETC_space_inverter_in.ogg","pitch":0.8,"volume":2.5}
 	],
 	"ETC_purifier_chargeup":
 	[
-		{"file":"sounds/w/ETC_purifier_chargeup.ogg","pitch":1.0,"volume":1.3},
+		{"file":"sounds/w/ETC_purifier_chargeup.ogg","pitch":1.0,"volume":1.3}
 	],
 	"ETC_purifier_fire":
 	[
-		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":1.3},
+		{"file":"sounds/w/ETC_purifier_fire.ogg","pitch":1.0,"volume":1.3}
 	],
 	"ETC_prailgun_fire":
 	[
 		{"file":"sounds/w/ETC_prailgun_0.ogg","pitch":1.0,"volume":0.8},
-		{"file":"sounds/w/ETC_prailgun_1.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/w/ETC_prailgun_1.ogg","pitch":1.0,"volume":0.8}
 	],
+	"ETC_magneticshock_fire":
+	[
+		{"file":"sounds/w/ETC_magneticshock_fire.ogg","pitch":1.0,"volume":0.45}
+	]
 }
