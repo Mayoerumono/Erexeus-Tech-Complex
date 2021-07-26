@@ -41,7 +41,7 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 208,
+      "arc": 225,
       "angle": -90,
       "locations": [-76, -27]
     },
